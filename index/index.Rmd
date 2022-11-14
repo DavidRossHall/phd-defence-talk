@@ -1,10 +1,9 @@
 ---
-title: "Presentation Ninja"
-subtitle: "&#x2694;&#xFE0F; xaringan +<br/>&#x1F60E; xaringanthemer"  
+title: "Chemical Proteomics Methods for Elucidating the Physical Protein Targets of Environmental Contaminants"
+subtitle: "PhD Oral Defence"  
 author: 
-  - "Yihui Xie"
-  - "Garrick Aden-Buie"
-date: '`r Sys.Date()`'
+  - "David Ross Hall"
+date: 'last updated on: `r Sys.Date()`'
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
