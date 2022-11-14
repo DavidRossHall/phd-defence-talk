@@ -15,6 +15,15 @@ output:
       countIncrementalSlides: true
 ---
 
+<!-- 
+
+  Good references: 
+    - example from U Sydney: https://github.com/garthtarr/sydney_xaringan
+    - 
+    
+-->
+    
+
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(
@@ -30,10 +39,24 @@ knitr::opts_chunk$set(
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
+
+# Colours
+
+white <- "#FFFFFF"
+max_red <- "#DE1A1A"
+old_gold <- "#E0BE36"
+onyx <- "#444545"
+yale_blue <- "#274C77"
+
+
 style_duo_accent(
-  primary_color = "#1381B0",
-  secondary_color = "#FF961C",
-  inverse_header_color = "#FFFFFF"
+  primary_color = onyx,
+  secondary_color = yale_blue,
+  inverse_header_color = old_gold,
+  # fonts
+  header_font_google = google_font("Fira Sans", "200"),
+  text_font_google = google_font("IBM Plex Sans"),
+  code_font_google = google_font("Fira Code")
 )
 ```
 
@@ -55,6 +78,7 @@ Himenaeos suspendisse leo varius mus risus sagittis aliquet venenatis duis nec.
 
 - Ipsum dis nec porttitor urna sed
 
+.footnote[[1] Text associated with footnote 1.]
 ---
 name: colors
 
@@ -125,80 +149,6 @@ Dolor elementum fermentum pharetra lectus arcu pulvinar.
 class: inverse center middle
 
 # Topic Changing Interstitial
-
---
-
-```
-class: inverse center middle
-```
-
----
-layout: true
-
-## Blocks
-
----
-
-### Blockquote
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
----
-
-### Code Blocks
-
-#### R Code
-
-```{r eval=FALSE}
-ggplot(gapminder) +
-  aes(x = gdpPercap, y = lifeExp, size = pop, color = country) +
-  geom_point() +
-  facet_wrap(~year)
-```
-
-#### JavaScript
-
-```js
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
----
-
-### More R Code
-
-```{r eval=FALSE}
-dplyr::starwars %>% dplyr::slice_sample(n = 4)
-```
-
----
-
-```{r message=TRUE, eval=requireNamespace("cli", quietly = TRUE)}
-cli::cli_alert_success("It worked!")
-```
-
---
-
-```{r message=TRUE}
-message("Just a friendly message")
-```
-
---
-
-```{r warning=TRUE}
-warning("This could be bad...")
-```
-
---
-
-```{r error=TRUE}
-stop("I hope you're sitting down for this")
-```
-
 
 ---
 layout: true
@@ -324,9 +274,9 @@ layout: false
 ### Wide image
 
 ![A wide image with a diagram of branching in git.](https://docs.github.com/assets/images/help/repository/branching.png)
-
+.pull-right[
 .footnote[Wide images scale to 100% slide width]
-
+]
 ---
 
 ## Two images
