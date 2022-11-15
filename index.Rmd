@@ -9,6 +9,7 @@ output:
     css: [xaringan-themer.css, custom.css]
     seal: false
     nature:
+      beforeInit: "macros.js"
       slideNumberFormat: "%current%"
       highlightStyle: github
       highlightLines: true
@@ -29,8 +30,8 @@ output:
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(
-  #fig.width=9, fig.height=3.5, fig.retina=3,
-  #out.width = "100%",
+  # fig.width=9, fig.height=3.5, fig.retina=3,
+  # out.width = "100%",
   cache = FALSE,
   echo = FALSE,
   message = FALSE, 
@@ -56,9 +57,13 @@ style_duo_accent(
   secondary_color = yale_blue,
   inverse_header_color = old_gold,
   # fonts
-  header_font_google = google_font("Fira Sans", "200"),
+  header_font_google = google_font("IBM Plex Sans Extralight"),
   text_font_google = google_font("IBM Plex Sans"),
-  code_font_google = google_font("Fira Code")
+  code_font_google = google_font("Fira Code"),
+  # Positions
+  padding = ("0px 20px 10px 20px"),
+  # font sizes
+  header_h2_font_size = "2rem"
 )
 ```
 
@@ -70,23 +75,35 @@ style_duo_accent(
 
 ## This is the first slide talking about interactions between chemicals...
 
-
+.footnote[test]
+.footnoteRight[test right<br>test2]
 ---
 
 
 ## Intro 1
 
 
----
 
+.pull-left[
+
+```{r, out.height = "400px", fig.align='center'}
+knitr::include_graphics(path = "gifs/de_shaw_5.gif")
+```
+]
+
+.footnoteLeft[D.E. Shaw<br>Research (2022)]
+---
 
 ## Intro 2: Commerncial and Env. chemicals might interact with proteins
 
-.center2[
-```{r, out.height="120%" }
-knitr::include_graphics(path = "images/tsca_lipinksi.png")
-```
+<!-- # ```{r fig.align = 'center'} -->
+<!-- # knitr::include_graphics(path = "images/lipinski-defence-talk.png") -->
+<!-- # ``` -->
+.center[
+  ![:scale 65%](images/lipinski-defence-talk.png)
 ]
+
+
 
 
 ---
@@ -175,14 +192,14 @@ class: inverse center middle
 
 ---
 
-
 ## PFAS backgrounds
+
 
 
 ---
 
 
-## PFAS adducts andtheory
+## PFAS adducts and theory
 
 
 ---
@@ -229,10 +246,18 @@ class: inverse center middle
 
 
 ---
+background-image: url("images/zebrafish_embryo.jpg")
+background-size: cover
 
+.inverse-
+
+## ELS zebrafish 
+
+---
+background-image: url("images/74PFAS.png")
+background-size: cover
 
 ## 74 PFAS Project
-
 
 ---
 

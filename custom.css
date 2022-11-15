@@ -1,12 +1,23 @@
 
 
-.footnoteright{
+
+.footnoteRight {
   position: absolute;
-  bottom: 32px;
-  right: 32px;
-  font-size: 18px;
+  bottom: 40px;
+  right: 20px;
+  font-size: 0.9em;
   text-align: right;
 }
+
+.footnoteLeft {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+
 
 .center2 {
   margin: 0;
@@ -16,3 +27,5 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+
