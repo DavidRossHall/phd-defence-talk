@@ -66,6 +66,13 @@ style_duo_accent(
   header_h2_font_size = "2rem"
 )
 ```
+
+```{r xaringan-tile-view, echo=FALSE}
+library(xaringanExtra)
+xaringanExtra::use_tile_view()
+```
+
+
 ---
 
 class: inverse
