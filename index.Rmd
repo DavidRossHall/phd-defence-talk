@@ -61,9 +61,11 @@ style_duo_accent(
   text_font_google = google_font("IBM Plex Sans"),
   code_font_google = google_font("Fira Code"),
   # Positions
-  padding = ("0px 20px 10px 20px"),
+  padding = ("0px 40px 10px 20px"),
   # font sizes
-  header_h2_font_size = "2rem"
+  header_h1_font_size = "2rem",
+  header_h2_font_size = "2rem",
+  header_h3_font_size = "1.25rem"
 )
 ```
 
@@ -74,21 +76,38 @@ xaringanExtra::use_tile_view()
 
 
 ---
+# Chemical Proteomics Methods for Elucidating the <br>Physical Protein Targets of Environmental Contaminants
 
-class: inverse
-
-# Chemical Proteomics Methods for Elucidating the Physical Protein Targets of Environmental Contaminants
+.left-column[
+<br>
+<br>
 ### David Hall
+### PhD Candidate
+### Dec. 9, 2022
+### 
+]
+
+<br>
+<br>
+.right[
+![:scale 60%](images/01-intro/graphicalAbstract.jpg)
+]
+
 
 ---
 
 
-## This is the first slide talking about interactions between chemicals...
+# This is the first slide talking about interactions between chemicals...
 
 .footnote[test]
 .footnoteRight[test right<br>test2]
+
+
 ---
 
+background-image: url(images/logos/embryo.png)
+background-position: 90%, 100%
+background-size: 5%
 
 ## Intro 1
 
@@ -251,50 +270,117 @@ class: inverse center middle
 
 ---
 
-## PFAS backgrounds
 
+## PFAS can form covalent addcuts with proteins; <br> the implications of such are unknown 
+
+.pull-left[
+Scheme of 8:2 FTAC
+]
+--
+.pull-right[
+![:scale 90%](images/04-FSPE/rand-mabury-est-2012-cropped.png)
+.footnoteRight[Rand & Mabury <br><i>ES&T</i>, 2012]
+
+]
+
+---
+
+
+## 8:2 Fluorotelomer acrylate can also undergo nucleophilic substition to form covalent thiol adducts
+
+.pull-left[
+scheme of 8:2 FTAC reactivity w/ BSA
+]
+
+.pull-right[
+BSA peptides chromatogram plots 
+]
+
+---
+
+
+## Low-signal of PFAS modified peptides requires selective enrichement to trigger MS2 events
+
+.center[
+FSPE enrichement scheme... include F13-IAM and globular protein stuff
+]
 
 
 ---
 
 
-## PFAS adducts and theory
+## FSPE enriches very hydrophobic and PFAS modified peptides;<br> nLC further resolves these
 
+.pull-left[
+FSPE w/ BSA modified peptides 30% MeOH,  100% MeOH
+]
+
+.pull-right[
+Figure 4.2D from thesis; nLC separation 
+]
+---
+
+## FSPE enrichement reveals that 8:2 FTAC modifies <br> over 100 unnique proteins *in vitro*
+
+.center[
+image of 8:2 pfas modified peptides 
+]
+
+---
+
+## 8:2 FTAC modified proteins are primarily soluble enzymes 
+
+
+.center[
+PANTHER protein class enrichement plot 
+]
+---
+
+## Cysteine residues modified by 8:2 FTAC occur outside of binding pocket 
+
+.center[
+spinning gif of GADPH w/ labelled modified residues
+]
+
+---
+
+## Of 100 proteins; 9 have anotated nucleophil;ic residiues,<br> none are modified by 8:2 FTAC
+
+.center[
+sequence plots
+]
 
 ---
 
 
-## FTAC adduct rectivity
+## PFAS modification decrease proteins solubility
 
-
----
-
-
-## FSPE workflow
-
-
----
-
-
-## FSPE 8:2 FTAC results
-
-
----
-
-
-## FSPE sequence,GAPDH, and aggregation
-
-
----
-
-
-## F13-IAM results 
+.center[bar plot showing protein aggregations...]
 
 
 ---
 
 
 ## FSPE Conclusions
+
+
+.pull-right[
+FSPE scheme again
+]
+
+1. 8:2 FTAC can react w/ protein thiols
+
+--
+
+2. FSPE selectively enriches PFAS modified peptides
+
+--
+
+3. PFAS modifications occur outside of predicted regions 
+
+--
+
+4. PFAS modification decrease protein stability
 
 
 ---
@@ -328,9 +414,10 @@ background-size: cover
 
 
 ## DIA proteomics scheme
-
-![](images/ddavsdia.png)
-
+.center[
+![:scale 70%](images/ddavsdia.png)
+]
+split this image into two parts; pull right/left for DIA/DDA stuff. 
 ---
 
 ## 
