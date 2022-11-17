@@ -14,7 +14,7 @@ output:
       highlightStyle: github
       highlightLines: true
       ratio: 16:9
-      countIncrementalSlides: true
+      countIncrementalSlides: FALSE
       
 ---
 
@@ -75,7 +75,6 @@ xaringanExtra::use_tile_view()
 ```
 
 
----
 # Chemical Proteomics Methods for Elucidating the <br>Physical Protein Targets of Environmental Contaminants
 
 .left-column[
@@ -173,7 +172,7 @@ knitr::include_graphics(path = "gifs/de_shaw_5.gif")
 ## Intro 7
 
 ---
-class: inverse center middle
+class: inverse 
 
 # DBPs
 
@@ -181,14 +180,11 @@ class: inverse center middle
 ---
 
 
-## DBP formation, incidence, and mechanisms
-
+## Water disinfection produces a slew of chemical by-products <br> which have been linked to adverse health outcomes
 
 ---
 
-
-## Health issues with DBPs
-
+## Monohaloacetamides and monohaloacetic acids are some on of the most toxic DBPs. 
 
 ---
 
