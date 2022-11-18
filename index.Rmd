@@ -50,11 +50,15 @@ max_red   <- "#DE1A1A"
 old_gold  <- "#E0BE36"
 onyx      <- "#444545"
 yale_blue <- "#274C77"
+powder_blue <- "#BFEDEF"
 
 
 style_duo_accent(
+  #colours  
   primary_color = onyx,
-  secondary_color = yale_blue,
+  secondary_color = white,
+  #link_color = yale_blue,
+  #inverse_link_color = white,
   inverse_header_color = old_gold,
   # fonts
   header_font_google = google_font("IBM Plex Sans Extralight"),
@@ -65,7 +69,8 @@ style_duo_accent(
   # font sizes
   header_h1_font_size = "2rem",
   header_h2_font_size = "2rem",
-  header_h3_font_size = "1.25rem"
+  header_h3_font_size = "1.25rem",
+  
 )
 ```
 
@@ -94,23 +99,53 @@ xaringanExtra::use_tile_view()
 
 
 ---
+class: inverse
+background-image: url(images/01-intro/canary.webp)
+background-size: contain
+background-color: #000000
 
+.footnoteRight[[G. McCaa<br>USBM](https://www.smithsonianmag.com/smart-news/story-real-canary-coal-mine-180961570/)]
 
-# This is the first slide talking about interactions between chemicals...
+???
 
-.footnote[test]
-.footnoteRight[test right<br>test2]
+- Talk about canary in coal mine, and hx of humans using animals 
 
+---
+class: inverse
+background-image: url(images/01-intro/lozenge.jpg)
+background-size: contain
+background-color: #000000
+
+.footnoteRight[[Wikimedia<br>Commons](https://en.m.wikipedia.org/wiki/File:The_Great_Lozenge-Maker_A_Hint_to_Paterfamilias.jpg)]
+
+---
+class: inverse
+background-image: url(images/01-intro/squad.jpg)
+background-size: contain
+background-color: #000000
+
+.footnoteRight[[PBS Wisconsin<br>(2020)](https://pbswisconsin.org/article/qa-deborah-blum-the-poison-squad-on-american-experience/)]
+
+---
+class: inverse
+background-image: url(images/01-intro/rabbits.jpg)
+background-size: contain
+background-color: #000000
+
+.footnoteRight[[BBC UK <br>(1999)](https://www.bbc.co.uk/sounds/play/p00545f8)]
+
+---
+class: inverse
+background-image: url(images/01-intro/tox-testing.webp)
+background-size: contain
+background-color: #000000
+
+.footnoteRight[[Caven<br>Images <br>(2021)](https://www.nature.com/articles/d43978-021-00009-6)]
 
 ---
 
-background-image: url(images/logos/embryo.png)
-background-position: 90%, 100%
-background-size: 5%
+## Animal-based toxicity testing faces three major hurdles:<br>(1) Nu
 
-## Intro 1
-
----
 
 ## Intro 2: Commerncial and Env. chemicals might interact with proteins
 
