@@ -52,14 +52,17 @@ onyx      <- "#444545"
 yale_blue <- "#274C77"
 powder_blue <- "#BFEDEF"
 
+pale_gray <- "#D3D3D3"
 
-style_duo_accent(
+
+style_duo(
   #colours  
-  primary_color = onyx,
-  secondary_color = white,
+  primary_color = pale_gray, # background
+  secondary_color = yale_blue, # colour of text
   #link_color = yale_blue,
   #inverse_link_color = white,
   inverse_header_color = old_gold,
+  header_color = onyx, 
   # fonts
   header_font_google = google_font("IBM Plex Sans Extralight"),
   text_font_google = google_font("IBM Plex Sans"),
@@ -94,7 +97,7 @@ xaringanExtra::use_tile_view()
 <br>
 <br>
 .right[
-![:scale 60%](images/01-intro/graphicalAbstract.jpg)
+![:scale 60%](images/01-intro/thesis-toc.png)
 ]
 
 
@@ -209,7 +212,21 @@ knitr::include_graphics(path = "gifs/de_shaw_5.gif")
 ---
 class: inverse 
 
-# DBPs
+# Monohaloacetic Acids and Monohaloacetamides Attack Distinct Cellular Proteome Thiols
+
+.left-column[
+<br>
+<br>
+### **David Hall**, Kirsten Yeung, and Hui Peng
+### Published in *ES&T*, 2022, 54, 23, 15191-15201, 
+### 
+]
+
+<br>
+<br>
+.right[
+![:scale 60%](images/03-DBP/dbp-toc.png)
+]
 
 
 ---
@@ -296,7 +313,24 @@ layout: false
 class: inverse center middle
 
 
-# FSPE
+class: inverse 
+
+# Querying the Upper-Bounds of Long-Chain PFAS reactions with Proteomic Thiols
+
+.left-column[
+<br>
+<br>
+### **David Hall**, Jeremy Gauthier, and Hui Peng
+###  
+### 
+]
+
+<br>
+<br>
+.right[
+![:scale 60%](images/04-FSPE/fspe-toc.png)
+]
+
 
 
 ---
@@ -415,12 +449,24 @@ FSPE scheme again
 
 
 ---
-class: inverse center middle
+class: inverse 
 
+# ToxicoProteomics Atlas of Perand Polyfluoroalkyl Substances in Early-Life Stages Zebrafish (*Danio rerio*)
 
-# 74 PFAS ELS Zebrafish
+.left-column[
+<br>
+<br>
+### **David Hall**, Jiajun Han, Wen Gu, Diwen Yang, and Hui Peng
+###  
+### 
+]
 
+<br>
+<br>
+.right[
+![:scale 60%](images/05-74PFAS/74pfas-toc.png)
 
+]
 ---
 background-image: url("images/zebrafish_embryo.jpg")
 background-size: cover
