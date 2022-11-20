@@ -44,21 +44,21 @@
 
   /* Colors */
   --text-color: #151515;
-  --header-color: #444545;
+  --header-color: #051014;
   --background-color: #D3D3D3;
-  --link-color: #274C77;
-  --text-bold-color: #274C77;
+  --link-color: #F17300;
+  --text-bold-color: #F17300;
   --code-highlight-color: rgba(255,255,0,0.5);
-  --inverse-text-color: #D3D3D3;
-  --inverse-background-color: #274C77;
-  --inverse-header-color: #E0BE36;
-  --inverse-link-color: #274C77;
+  --inverse-text-color: light_grey;
+  --inverse-background-color: #F17300;
+  --inverse-header-color: #051014;
+  --inverse-link-color: #F17300;
   --title-slide-background-color: #D3D3D3;
-  --title-slide-text-color: #274C77;
-  --header-background-color: #444545;
+  --title-slide-text-color: #F17300;
+  --header-background-color: #051014;
   --header-background-text-color: #D3D3D3;
   --primary: #D3D3D3;
-  --secondary: #274C77;
+  --secondary: #F17300;
 }
 
 html {
@@ -78,7 +78,7 @@ h1, h2, h3 {
 .remark-slide-content {
   background-color: var(--background-color);
   font-size: 1rem;
-  padding: 0px 40px 10px 20px;
+  padding: 16px 64px 16px 64px;
   width: 100%;
   height: 100%;
 }
@@ -99,7 +99,7 @@ h1, h2, h3 {
 }
 .remark-inline-code {
   font-size: var(--code-inline-font-size);
-  color: #274C77;
+  color: #F17300;
 }
 .remark-slide-number {
   color: #151515;
@@ -150,10 +150,10 @@ a, a > code {
   float: left;
 }
 .left-column h2, .left-column h3 {
-  color: #274C7799;
+  color: #F1730099;
 }
 .left-column h2:last-of-type, .left-column h3:last-child {
-  color: #274C77;
+  color: #F17300;
 }
 .right-column {
   width: 75%;
@@ -175,7 +175,7 @@ img, video, iframe {
   max-width: 100%;
 }
 blockquote {
-  border-left: solid 5px #274C7780;
+  border-left: solid 5px #F1730080;
   padding-left: 1em;
 }
 .remark-slide table {
@@ -253,7 +253,7 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   width: 100%;
   background: var(--header-background-color);
   color: var(--header-background-text-color);
-  padding: 2rem 40px 1.5rem 20px;
+  padding: 2rem 64px 1.5rem 64px;
   margin-top: 0;
   box-sizing: border-box;
 }

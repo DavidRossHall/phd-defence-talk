@@ -52,23 +52,27 @@ onyx      <- "#444545"
 yale_blue <- "#274C77"
 powder_blue <- "#BFEDEF"
 
-pale_gray <- "#D3D3D3"
+light_grey <- "#D3D3D3"
+steel_blue <- "#3E7CB1"
+rich_black <- "#051014"
+safety_orange <- "#F17300"
+maroon <- "#A13D63"
+hookers_green <- "#567568"
 
 
 style_duo(
   #colours  
-  primary_color = pale_gray, # background
-  secondary_color = yale_blue, # colour of text
-  #link_color = yale_blue,
-  #inverse_link_color = white,
-  inverse_header_color = old_gold,
-  header_color = onyx, 
+  primary_color = "#D3D3D3",
+  secondary_color = "#F17300",
+  inverse_header_color = "#051014",
+  header_color = "#051014",
+  inverse_text_color = "light_grey",
   # fonts
   header_font_google = google_font("IBM Plex Sans Extralight"),
   text_font_google = google_font("IBM Plex Sans"),
   code_font_google = google_font("Fira Code"),
   # Positions
-  padding = ("0px 40px 10px 20px"),
+  #padding = ("0px 40px 10px 20px"),
   # font sizes
   header_h1_font_size = "2rem",
   header_h2_font_size = "2rem",
@@ -83,12 +87,13 @@ xaringanExtra::use_tile_view()
 ```
 
 
+
 # Chemical Proteomics Methods for Elucidating the <br>Physical Protein Targets of Environmental Contaminants
 
 .left-column[
 <br>
 <br>
-### David Hall
+### **David Hall**
 ### PhD Candidate
 ### Dec. 9, 2022
 ### 
@@ -147,7 +152,21 @@ background-color: #000000
 
 ---
 
-## Animal-based toxicity testing faces three major hurdles:<br>(1) Nu
+class: center, middle
+
+## Traditional animal-based toxicicty/risk assessment faces three major hurdles. 
+
+
+---
+## Biological diversity can often times not be 
+
+.footnoteRight[[Karchner, et al.<br><i>PNAS</i> 2006](https://www.pnas.org/doi/10.1073/pnas.0509950103)]
+
+---
+
+https://pubs.acs.org/doi/10.1021/acs.est.9b06379
+.footnoteRight[[Wang, et al.<br><i>ES&T</i> 2020](https://pubs.acs.org/doi/10.1021/acs.est.9b06379)]
+---
 
 
 ## Intro 2: Commerncial and Env. chemicals might interact with proteins
@@ -187,31 +206,19 @@ knitr::include_graphics(path = "gifs/de_shaw_5.gif")
 .center[
 ![:scale 90%](images/01-intro/proteomics.png)
 ]
----
-
-
-## Intro 4
-
 
 ---
 
+## During my PhD research, I've developped proteomic methods to explore environmental chemical/protein interactions
 
-## Intro 5
-
-
----
-
-
-## Intro 6
+.center[
+![:scale 80%](images/01-intro/overview.png)
+]
 
 
 ---
 
-## Intro 7
-
----
-class: inverse 
-
+class: inverse
 # Monohaloacetic Acids and Monohaloacetamides Attack Distinct Cellular Proteome Thiols
 
 .left-column[
@@ -227,7 +234,6 @@ class: inverse
 .right[
 ![:scale 60%](images/03-DBP/dbp-toc.png)
 ]
-
 
 ---
 

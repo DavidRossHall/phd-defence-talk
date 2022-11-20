@@ -9,6 +9,15 @@
   text-align: right;
 }
 
+.blackFootnoteRight {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+  font-size: 0.9em;
+  text-align: right;
+  color: #D3D3D3;
+}
+
 
 .footnoteLeft {
   position: absolute;
