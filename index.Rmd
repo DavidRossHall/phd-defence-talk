@@ -313,8 +313,8 @@ class: inverse
 .left-column[
 <br>
 <br>
-### **David Hall**, Kirsten Yeung, and Hui Peng
-### Published in *ES&T*, 2022, 54, 23, 15191-15201, 
+### <mark style="background-color: #F17300; color:black;">David Hall, Kirsten Yeung, and Hui Peng </mark>
+#### <mark style="background-color: #F17300; color:black;">Published in *ES&T*, 2022, 54, 23, 15191-15201, </mark>
 ### 
 ]
 
@@ -347,8 +347,13 @@ class: inverse
 
 ## ABPP protein targets
 
-.center[
-![:scale 80%](images/03-DBP/abpp_scheme.png)
+
+.hide-bg[
+  .center[
+```{r, out.width="100%", echo = FALSE}
+knitr::include_graphics("images/03-DBP/abpp_scheme.png")
+```
+  ]
 ]
 
 ---
