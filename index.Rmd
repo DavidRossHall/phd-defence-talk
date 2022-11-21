@@ -249,6 +249,11 @@ knitr::include_graphics("images/01-intro/aop.png")
 .footnoteRight[[Ankley et al.<br><i>Env. Tox. &<br>Chem.</i> 2009](https://www.pnas.org/doi/10.1073/pnas.0509950103)]
 
 ---
+
+## Central Dogma 
+
+
+---
 class: inverse middle center
 background-image: url(images/01-intro/cell.jpg
 background-size: cover
@@ -256,10 +261,10 @@ background-size: cover
 .footnoteRight[[Digizyme<br>2020](https://www.digizyme.com/cst_landscapes.html)]
 
 --
-## <mark style="background-color: #F17300; color:black;padding: 5px 5px 5px 5px;">Finding small-molecule/protein interactions is worse then finding a neede in a haystack </mark>
+## <mark style="background-color: #F17300; color:black;padding: 0px 5px 5px 5px;">Finding small-molecule/protein interactions is worse then finding a neede in a haystack </mark>
 
 ---
-## proteins jiggle 
+<!--## proteins jiggle 
 
 
 .pull-left[
@@ -276,9 +281,8 @@ knitr::include_graphics(path = "gifs/de_shaw_5.gif")
 ```
 ]
 ]
-.footnoteRight[D.E. Shaw<br>Research (2022)]
+.footnoteRight[D.E. Shaw<br>Research (2022)] -->
 
----
 
 ## Bottom-up proteomics uses LC-MS to measure peptides and compares them to genomic informaiton to detect proteins
 
