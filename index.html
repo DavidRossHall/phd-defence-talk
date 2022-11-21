@@ -29,8 +29,6 @@
 
 
 
-
-
 # Chemical Proteomics Methods for Elucidating the &lt;br&gt;Physical Protein Targets of Environmental Contaminants
 
 .left-column[
@@ -67,7 +65,12 @@ background-image: url(images/01-intro/lozenge.jpg)
 background-size: contain
 background-color: #000000
 
-.footnoteRight[[Wikimedia&lt;br&gt;Commons](https://en.m.wikipedia.org/wiki/File:The_Great_Lozenge-Maker_A_Hint_to_Paterfamilias.jpg)]
+.footnoteRight[[J. Leech&lt;br&gt;&lt;i&gt;Punch&lt;/i&gt; , 1858](https://en.m.wikipedia.org/wiki/File:The_Great_Lozenge-Maker_A_Hint_to_Paterfamilias.jpg)]
+
+???
+
+- Referring to the 1858 Bradford sweet poisoning where sweets accidentally made w/ arsenic killed &gt; 200 people
+- Lead to the Pharmacy Act of 1868, limiting sales of poisons and drugs to qualified pharmacists 
 
 ---
 class: inverse
@@ -77,6 +80,12 @@ background-color: #000000
 
 .footnoteRight[[PBS Wisconsin&lt;br&gt;(2020)](https://pbswisconsin.org/article/qa-deborah-blum-the-poison-squad-on-american-experience/)]
 
+???
+
+- *Poison Squad*, a group of 12 volunteers who in **1901** set out to test the effects of chemical food preservatives using human trials
+- This led to the development of the FDA (U.S. Food and Drug Administration)  
+
+
 ---
 class: inverse
 background-image: url(images/01-intro/rabbits.jpg)
@@ -84,6 +93,13 @@ background-size: contain
 background-color: #000000
 
 .footnoteRight[[BBC UK &lt;br&gt;(1999)](https://www.bbc.co.uk/sounds/play/p00545f8)]
+
+???
+
+- Draize test developed in 1944 at US FDA
+- Initially use for cosmetics, but expanded to other compounds
+- Topical application of suspected irritant, observed 14 days
+- Still in use today, but *in vitro* test screen out severe irritants
 
 ---
 class: inverse
@@ -93,36 +109,93 @@ background-color: #000000
 
 .footnoteRight[[Caven&lt;br&gt;Images &lt;br&gt;(2021)](https://www.nature.com/articles/d43978-021-00009-6)]
 
+???
+- Modern assessments still employ animal testing
+- Triaged using *in vitro* screening; lower doses; and lower endpoints 
+
 ---
 
 class: center, middle
 
-## Traditional animal-based toxicicty/risk assessment faces three major hurdles. 
+## Traditional animal-based toxicicty/risk assessment&lt;br&gt;faces three major hurdles. 
 
 
 ---
-## Biological diversity can often times not be 
+
+## Throughput of animal testing cannot cope with the &gt;350 000 chemicals and mixtures registered for production &amp; use 
+
+.center[
+  .hide-bg[
+&lt;img src="images/01-intro/want-est-2020.jpeg" width="80%" /&gt;
+  ]
+]
+
+.footnoteRight[[Wang, et al.&lt;br&gt;&lt;i&gt;ES&amp;T&lt;/i&gt; 2020](https://pubs.acs.org/doi/10.1021/acs.est.9b06379)]
+---
+
+## The majority of chemicals in use satisfy some elements of "drug-likeness"; indicating they may be bioactive
+
+.center[
+  .hide-bg[
+   ![:scale 65%](images/01-intro/lipinski-defence-talk.png)
+  ]
+]
+.footnoteRight[[Data from&lt;br&gt;TSCA](https://pubs.acs.org/doi/10.1021/acs.est.9b06379)]
+
+???
+
+- Lipinski's rule of 5: &lt; 500 Da, 0 &lt; LogP &lt; 5,&lt;=5 hydrogen bond donors, &lt;= 10 Hydrogen bond acceptors (N, O)
+- ~ 35 000 compounds inside the box
+- Not a large pool compared to pharmaceutical screening, 
+- Not concerned with something good happening (i.e. pharma); only concerned if something bad happens...
+
+---
+
+## Single species testing does not reflect interspecies&lt;br&gt;variation in toxic response (or lack thereof)
+
+???
+
+- Implicitly understood
+  - Dog vs. human response to chocolate
+- TCDD extremely toxic, but Terns are 80- to 250-fold less sensitive to compared to Chickens
+- Variance in two amino acid residues in the aromatic hydrocarbon receptor (AHR) ligand-binding domain (LBD) that account for the differences in AHR function, and thus contribute to the species differences in sensitivity to HAHs.
+--
+.pull-left[
+  ![:scale 60%](images/01-intro/tcdd-tern.png)
+]
+.footnote[[Wikimedia Commons](https://en.wikipedia.org/wiki/File:Common_tern_with_fish.jpg)]
+--
+
+.hide-bg[
+  .pull-right[  
+&lt;img src="images/01-intro/ahr.png" width="80%" /&gt;
+  ]
+]
 
 .footnoteRight[[Karchner, et al.&lt;br&gt;&lt;i&gt;PNAS&lt;/i&gt; 2006](https://www.pnas.org/doi/10.1073/pnas.0509950103)]
 
 ---
+## Animal testing fails to elucidate *molecular* mechanisms of toxicity; critical for adverse outcome pathway development
 
-https://pubs.acs.org/doi/10.1021/acs.est.9b06379
-.footnoteRight[[Wang, et al.&lt;br&gt;&lt;i&gt;ES&amp;T&lt;/i&gt; 2020](https://pubs.acs.org/doi/10.1021/acs.est.9b06379)]
----
-
-
-## Intro 2: Commerncial and Env. chemicals might interact with proteins
-
-&lt;!-- # ```{r fig.align = 'center'} --&gt;
-&lt;!-- # knitr::include_graphics(path = "images/lipinski-defence-talk.png") --&gt;
-&lt;!-- # ``` --&gt;
-.center[
-  ![:scale 65%](images/01-intro/lipinski-defence-talk.png)
+.hide-bg[
+  .center[
+&lt;img src="images/01-intro/aop.png" width="88%" /&gt;
+  ]
 ]
 
----
+.footnoteRight[[Ankley et al.&lt;br&gt;&lt;i&gt;Env. Tox. &amp;&lt;br&gt;Chem.&lt;/i&gt; 2009](https://www.pnas.org/doi/10.1073/pnas.0509950103)]
 
+---
+class: inverse middle center
+background-image: url(images/01-intro/cell.jpg
+background-size: cover
+
+.footnoteRight[[Digizyme&lt;br&gt;2020](https://www.digizyme.com/cst_landscapes.html)]
+
+--
+## &lt;mark style="background-color: #F17300; color:black;padding: 5px 5px 5px 5px;"&gt;Finding small-molecule/protein interactions is worse then finding a neede in a haystack &lt;/mark&gt;
+
+---
 ## proteins jiggle 
 
 
@@ -132,21 +205,25 @@ https://pubs.acs.org/doi/10.1021/acs.est.9b06379
 
 
 --
-
+.hide-bg[
 .pull-right[
 
 &lt;img src="gifs/de_shaw_5.gif" height="400px" style="display: block; margin: auto;" /&gt;
 ]
-
+]
 .footnoteRight[D.E. Shaw&lt;br&gt;Research (2022)]
 
 ---
 
-## Proteomics is a thing
+## Bottom-up proteomics uses LC-MS to measure peptides and compares them to genomic informaiton to detect proteins
 
-.center[
-![:scale 90%](images/01-intro/proteomics.png)
+
+.hide-bg[
+  .center[
+&lt;img src="images/01-intro/proteomics.png" width="90%" /&gt;
+  ]
 ]
+
 
 ---
 
