@@ -1,0 +1,38 @@
+### David Ross Hall --- created on 2022-11-22
+
+### Loose plots for thesis defence talk
+
+```{r}
+library(ggplot2)
+
+
+# plot of DBP cancer data.
+df <- readr::read_csv("data/hrudey_2009_waterResearch.csv")
+
+colors <- c("#9381FF", "#FFB20F", "#FF0035")
+
+ggplot(data = df,
+       aes(x = ref,
+           y = adj_or,
+           ymin = ci_95_low,
+           ymax = ci_95_high,
+           colour = sex
+       )) +
+  geom_hline(yintercept = 1, size=1) +
+  geom_errorbar(color = "black",
+                width = 0.3) +
+  geom_point(size=4) +
+  facet_wrap(~sex, ncol = 1, scales = "free_y") +
+  scale_color_manual(values = colors) +
+  theme_classic() +
+  theme(legend.position = "none",
+        panel.background = element_rect(fill = "transparent"),
+        plot.background = element_rect(fill = "transparent"),
+        text = element_text(size = 10)
+  ) +
+  labs(y = "Odds Ratio (1.0 = no association)",
+       x = "") +
+  scale_y_continuous(trans = "log2",
+                     breaks = c(0.5, 1, 2, 4, 8)) +
+  coord_flip(ylim = c(0.5, 8))
+```

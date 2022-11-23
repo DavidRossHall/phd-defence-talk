@@ -81,6 +81,7 @@ style_duo(
 )
 ```
 
+
 ```{r xaringan-tile-view, echo=FALSE}
 library(xaringanExtra)
 xaringanExtra::use_tile_view()
@@ -210,6 +211,20 @@ knitr::include_graphics("images/01-intro/want-est-2020.jpeg")
 
 ---
 
+## Animal testing fails to elucidate *molecular* mechanisms of toxicity; critical for adverse outcome pathway development
+
+.hide-bg[
+  .center[
+```{r, out.width="88%", echo = FALSE}
+knitr::include_graphics("images/01-intro/aop.png")
+```
+  ]
+]
+
+.footnoteRight[[Ankley et al.<br><i>Env. Tox. &<br>Chem.</i> 2009](https://www.pnas.org/doi/10.1073/pnas.0509950103)]
+
+---
+
 ## Single species testing does not reflect interspecies<br>variation in toxic response (or lack thereof)
 
 ???
@@ -236,26 +251,8 @@ knitr::include_graphics("images/01-intro/ahr.png")
 .footnoteRight[[Karchner, et al.<br><i>PNAS</i> 2006](https://www.pnas.org/doi/10.1073/pnas.0509950103)]
 
 ---
-## Animal testing fails to elucidate *molecular* mechanisms of toxicity; critical for adverse outcome pathway development
-
-.hide-bg[
-  .center[
-```{r, out.width="88%", echo = FALSE}
-knitr::include_graphics("images/01-intro/aop.png")
-```
-  ]
-]
-
-.footnoteRight[[Ankley et al.<br><i>Env. Tox. &<br>Chem.</i> 2009](https://www.pnas.org/doi/10.1073/pnas.0509950103)]
-
----
-
-## Central Dogma 
-
-
----
 class: inverse middle center
-background-image: url(images/01-intro/cell.jpg
+background-image: url(images/01-intro/cell.png
 background-size: cover
 
 .footnoteRight[[Digizyme<br>2020](https://www.digizyme.com/cst_landscapes.html)]
@@ -326,15 +323,31 @@ class: inverse
 
 ---
 
+## Long-term consumption of water disinfected via chlorination is linked to increased incidences of bladder cancer
 
-## Water disinfection produces a slew of chemical by-products <br> which have been linked to adverse health outcomes
+.hide-bg[
+.center[
+![:scale 60%](images/03-DBP/hrudey-2009-cropped.png)
+]
+]
+.footnoteRight[[Hrudey<br>2009](https://www.sciencedirect.com/science/article/pii/S0043135409000943?via%3Dihub#fig4)]
 
 ---
 
-## Monohaloacetamides and monohaloacetic acids are some on of the most toxic DBPs. 
+## The byproducts produced during water disinfection<br>are the suspected culprits 
 
+.center[
+![:scale 50%](images/03-DBP/dbps.png)
+]
 ---
 
+## There is a large gap is toxicity between<br>regulated and unregulated DBPs
+.footnote[[remake this figure, but trim it down](https://pubs.acs.org/doi/10.1021/acs.accounts.8b00641)]
+.center[
+![](https://pubs.acs.org/cms/10.1021/acs.accounts.8b00641/asset/images/medium/ar-2018-00641q_0002.gif)
+]
+<!-- get CHO cytoxicuty date here: https://www.sciencedirect.com/science/article/pii/S1001074217303285 -->
+---
 
 ## Cellular assays
 
@@ -347,84 +360,86 @@ class: inverse
 ---
 
 
-## ABPP protein targets
+## I developped an approach using activity-based protein profilling to identify targets of mHAAs and mHAAs
 
 
 .hide-bg[
   .center[
-```{r, out.width="100%", echo = FALSE}
-knitr::include_graphics("images/03-DBP/abpp_scheme.png")
-```
+![:scale 100%](images/03-DBP/abpp_scheme.png)
   ]
 ]
 
 ---
 
-## Gels are a thing
+## In crude lysate the general trends of I>Br>Cl cystein reactivity is preserved; in live cells specific protein targets appear
 
-.center[
-![:scale 90%](images/03-DBP/gels.png)
+.hide-bg[
+  .center[
+    ![:scale 90%](images/03-DBP/gels.png)
+  ]
 ]
-
 ---
 
-## ABPP results 
+## Biotin-affinity LC-MS analysis reveals compound<br> and class specific proteint targets 
 
+<!-- if possible remake figures w/ different colours so I can remove background -->
+
+.hide-bg[
 .center[
-![:scale 75%](images/03-DBP/abpp-results.png)
+![:scale 70%](images/03-DBP/abpp-results.png)
 ]
-
----
-layout: true
-
-## Direct Adducts 
-
----
-
-.center[
-![:scale 80%](images/03-DBP/adduct_scheme.png)
 ]
-
 ---
+## Direct adduct monitoring directly validated many of the suspected targets of IAM and IAA
 
+.hide-bg[
 .center[ 
 ![:scale 80%](images/03-DBP/fig4-adducts.jpeg)
 ]
-
+]
 ---
 
-layout: false
+## IAM, and not IAA, specifically binds to <br>the active site Cys152 on GAPDH
 
-## GAPDH results and illustration
-
+.hide-bg[
 .center[
-  
-  ![:scale 70%](images/03-DBP/gadph_adj.png)
-
+![:scale 70%](images/03-DBP/gadph_adj.png)
+]
 ]
 
-
-
+<!-- remove the chromatogram elements of this figure and only talk about the active site-->
+<!-- come up with a better title -->
 ---
 
 
 ## DBP conclusions
 
+<!-- come up with cleaner conclusions --> 
+
+.pull-left[
+
+1. Class and Compound specific Differences in DBP protein targets
+2. Differences in toxicity responses can be accounted for by protein targets
+3. Cys reactivity used to fish for reactive DBPs (Hi Kirsten 👋)
+]
+
+.pull-right[
+![:scale 100%](images/03-DBP/dbp-toc.png)
+]
+
+
 
 ---
-class: inverse center middle
 
-
-class: inverse 
+background-color: #C2D6EB
 
 # Querying the Upper-Bounds of Long-Chain PFAS reactions with Proteomic Thiols
 
 .left-column[
 <br>
 <br>
-### **David Hall**, Jeremy Gauthier, and Hui Peng
-###  
-### 
+### <p style="color:black;">David Hall, Jeremy Gauthier, and Hui Peng </p>
+ 
 ]
 
 <br>
@@ -432,8 +447,6 @@ class: inverse
 .right[
 ![:scale 60%](images/04-FSPE/fspe-toc.png)
 ]
-
-
 
 ---
 
@@ -444,12 +457,13 @@ class: inverse
 Scheme of 8:2 FTAC
 ]
 --
+.hide-bg[
 .pull-right[
 ![:scale 90%](images/04-FSPE/rand-mabury-est-2012-cropped.png)
-.footnoteRight[Rand & Mabury <br><i>ES&T</i>, 2012]
 
 ]
-
+]
+.footnoteRight[[Rand & Mabury <br><i>ES&T</i>, 2012](https://pubs.acs.org/doi/10.1021/es303760u)]
 ---
 
 
@@ -530,24 +544,24 @@ sequence plots
 
 ## FSPE Conclusions
 
+.pull-left[
 
-.pull-right[
-FSPE scheme again
-]
+1. 8:2 FTAC does react with protein thiols
 
-1. 8:2 FTAC can react w/ protein thiols
-
---
-
-2. FSPE selectively enriches PFAS modified peptides
-
---
+2. **FSPE** selectively enriches PFAS modified peptides
 
 3. PFAS modifications occur outside of predicted regions 
 
---
-
 4. PFAS modification decrease protein stability
+]
+
+
+.pull-right[
+![:scale 100%](images/04-FSPE/fspe-toc.png)
+]
+
+
+
 
 
 ---

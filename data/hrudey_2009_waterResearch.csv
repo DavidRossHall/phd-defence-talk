@@ -1,0 +1,24 @@
+﻿adj_or,ci_95_low,ci_95_high,sig,ref,sex,year
+2.34,1.16,4.71,TRUE,Michaud et al. (2007) i,both,2007
+2.06,0.83,5.08,FALSE,Michaud et al. (2007) ii,both,2007
+2.34,1.01,3.66,TRUE,Bove et al. (2007),both,2007
+2.58,1.33,5.01,TRUE,Villanueva et al. (2007) i,male,2007
+2.21,1.17,4.2,TRUE,Villanueva et al. (2007) ii,male,2007
+2.33,0.51,10.55,FALSE,Villanueva et al. (2007),female,2007
+2.99,1.1,8.5,TRUE,Chevrier et al. (2004),both,2004
+1.22,0.92,1.62,FALSE,Koivusalo et al. (1998),both,1998
+1.5,0.95,2.3,FALSE,Cantor et al. (1998) i,male,1998
+1.9,1.1,3.6,TRUE,Cantor et al. (1998) ii,male,1998
+0.7,0.2,2.4,FALSE,Cantor et al. (1998),female,1998
+0.62,0.25,1.59,FALSE,Doyle et al. (1997),female,1997
+2.2,0.8,5.1,FALSE,Freedman et al. (1997) i,male,1997
+0.6,0.2,2.2,FALSE,Freedman et al. (1997) ii,male,1997
+1.41,1.09,1.81,TRUE,King & Marrett (1996) i,both,1996
+1.58,1.17,2.14,TRUE,King & Marrett (1996) ii,both,1996
+1.5,0.8,2.9,FALSE,McGeehin et al. (1993) i,both,1993
+1.8,1.1,2.9,TRUE,McGeehin et al. (1993) ii,both,1987
+1.2,0.8,1.7,FALSE,Cantor et al. (1987) i,male,1987
+1.2,0.7,2.1,FALSE,Cantor et al. (1987) ii,male,1987
+3.2,1.2,8.7,TRUE,Cantor et al. (1987),female,1987
+1.8,0.8,4.75,FALSE,Wilkins & Comstock (1981) i,male,1981
+1.6,0.54,6.32,FALSE,Wilkins & Comstock (1981) ii,female,1981
