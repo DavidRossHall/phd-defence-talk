@@ -52,7 +52,7 @@ onyx      <- "#444545"
 yale_blue <- "#274C77"
 powder_blue <- "#BFEDEF"
 
-light_grey <- "#D3D3D3"
+light_grey <- "#E0E0E0" #"#D3D3D3"
 steel_blue <- "#3E7CB1"
 rich_black <- "#051014"
 safety_orange <- "#F17300"
@@ -62,7 +62,7 @@ hookers_green <- "#567568"
 
 style_duo(
   #colours  
-  primary_color = "#D3D3D3",
+  primary_color = light_grey,
   secondary_color = "#F17300",
   inverse_header_color = "#051014",
   header_color = "#051014",
@@ -450,12 +450,12 @@ background-color: #C2D6EB
 
 ---
 
-
-## PFAS can form covalent addcuts with proteins; <br> the implications of such are unknown 
+## PFAS such can form covalent adducts with proteins; <br> the implications of such are unknown 
 
 .pull-left[
-Scheme of 8:2 FTAC
+![:scale 100%](images/04-FSPE/ftoh-color.png)
 ]
+.footnoteLeft[[Rand & Mabury<br>(2012)](https://link.springer.com/article/10.1007/s10565-012-9211-4)]
 --
 .hide-bg[
 .pull-right[
@@ -466,79 +466,99 @@ Scheme of 8:2 FTAC
 .footnoteRight[[Rand & Mabury <br><i>ES&T</i>, 2012](https://pubs.acs.org/doi/10.1021/es303760u)]
 ---
 
-
 ## 8:2 Fluorotelomer acrylate can also undergo nucleophilic substition to form covalent thiol adducts
 
 .pull-left[
-scheme of 8:2 FTAC reactivity w/ BSA
+![:scale 100%](images/04-FSPE/ftac-scheme.png)
 ]
 
 .pull-right[
-BSA peptides chromatogram plots 
+.hide-bg[
+![:scale 80%](images/04-FSPE/ftac-24hrs.png)
+]
 ]
 
 ---
 
-
-## Low-signal of PFAS modified peptides requires selective enrichement to trigger MS2 events
+## 8:2 FTAC adducts can survive digestion, but low-signal of modified peptides requires enrichement to trigger MS2 events
 
 .center[
-FSPE enrichement scheme... include F13-IAM and globular protein stuff
+.hide-bg[
+![:scale 90%](images/04-FSPE/FTAC-BSA-RTshifts-size.png)
 ]
+]
+---
 
+## Fluorous Solid Phase Extraction can selectively enrich peptides with long-chain PFAS adduct
+
+.center[
+![:scale 90%](images/04-FSPE/fspe-scheme.png)
+]
 
 ---
 
-
-## FSPE enriches very hydrophobic and PFAS modified peptides;<br> nLC further resolves these
-
+## FSPE enriches very hydrophobic and PFAS modified peptides <br> which can be further resolves using C18 nLC
 .pull-left[
-FSPE w/ BSA modified peptides 30% MeOH,  100% MeOH
+.hide-bg[
+![:scale 100%](images/04-FSPE/bsa-fractions.png)
+]
 ]
 
+--
+
 .pull-right[
-Figure 4.2D from thesis; nLC separation 
+.hide-bg[
+![:scale 90%](images/04-FSPE/nLC-fspe.png)
+]
 ]
 ---
 
-## FSPE enrichement reveals that 8:2 FTAC modifies <br> over 100 unnique proteins *in vitro*
+## FSPE enrichement of 8:2 FTAC reacted crude cell lysate helps identify over 100 unique modified proteins
 
+.hide-bg[
 .center[
-image of 8:2 pfas modified peptides 
+![:scale 50%](images/04-FSPE/FTACpepInt.png)
+]
 ]
 
+.footnote[8:2 FTAC (100 µm)<br>with crude cell<br>lysate for 12 hrs]
 ---
 
 ## 8:2 FTAC modified proteins are primarily soluble enzymes 
 
-
+.hide-bg[
 .center[
-PANTHER protein class enrichement plot 
+![:scale 50%](images/04-FSPE/FTAC-panther-plot.png)
+]
 ]
 ---
 
 ## Cysteine residues modified by 8:2 FTAC occur outside of binding pocket 
 
 .center[
-spinning gif of GADPH w/ labelled modified residues
+![:scale 50%](images/04-FSPE/GAPDH_cys152Zoom.png)
 ]
 
 ---
 
-## Of 100 proteins; 9 have anotated nucleophil;ic residiues,<br> none are modified by 8:2 FTAC
-
+## Of 110 proteins; 9 have anotated nucleophilic residiues,<br> none are modified by 8:2 FTAC
+<!-- get exact number of proteins -->
+.hide-bg[
 .center[
-sequence plots
+![:scale 50%](images\04-FSPE\ftac-prot-seq.png)
 ]
-
+]
 ---
 
 
-## PFAS modification decrease proteins solubility
+## Increasing PFAS reactivity promotes protein aggregation<br>and decreases protein solubility
 
-.center[bar plot showing protein aggregations...]
-
-
+.hide-bg[
+.center[
+![:scale 50%](images/04-FSPE/protPrecip.png)
+]
+]
+.footnote[100 µM PFAS<br>n = 4 per sample<br>representative of 3 experiments]
 ---
 
 
@@ -552,7 +572,7 @@ sequence plots
 
 3. PFAS modifications occur outside of predicted regions 
 
-4. PFAS modification decrease protein stability
+4. PFAS modification decreases protein stability
 ]
 
 
