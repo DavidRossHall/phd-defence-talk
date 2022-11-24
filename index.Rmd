@@ -588,13 +588,14 @@ background-color: #C2D6EB
 
 ---
 class: inverse 
-
+background-color: #9BA2FF
 # ToxicoProteomics Atlas of Perand Polyfluoroalkyl Substances in Early-Life Stages Zebrafish (*Danio rerio*)
 
 .left-column[
 <br>
 <br>
-### **David Hall**, Jiajun Han, Wen Gu, Diwen Yang, and Hui Peng
+### <p style="color:black;">David Hall, Jiajun Han, Wen Gu, Diwen Yang, and Hui Peng </p>
+
 ###  
 ### 
 ]
@@ -606,24 +607,38 @@ class: inverse
 
 ]
 ---
-background-image: url("images/zebrafish_embryo.jpg")
+background-image: url("images/05-74PFAS/74PFAS.png")
 background-size: cover
 
-.inverse-
+.footnoteRight[[Patlewicz, et al.<br><i>EHP</i> 2019<br> ](https://ehp.niehs.nih.gov/doi/10.1289/EHP4555)]
 
-## ELS zebrafish 
-
----
-background-image: url("images/74PFAS.png")
-background-size: cover
-
-## 74 PFAS Project
+## PFAS exhibit surprising structural diversity
 
 ---
 
+background-image: url("images/05-74PFAS/zebrafish_embryo.jpg")
+background-size: cover
+
+.footnoteLeft[[Cavanagh &<br>McCarthy, 2014](https://ki-images.mit.edu/2014/wellcome)]
+
+---
+
+## Fish Embryo Toxicity testing for is logistically simple<br>and sensitive to acute toxicity
+
+.center[
+.hide-bg[
+![:scale 75%](images/05-74PFAS/OECD_testing.png)
+]
+]
+
+.footnoteRight[[Test No. 236<br>OECD, 2013](https://doi.org/10.1787/9789264203709-en )]
+---
 
 ## 74 PFAS Tox results
 
+.center[
+![:scale 50%](images/05-74PPFAS/toxData.png)
+]
 
 ---
 
