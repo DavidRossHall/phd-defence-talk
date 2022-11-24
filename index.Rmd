@@ -539,7 +539,7 @@ background-color: #C2D6EB
 .center[
 ![:scale 50%](gifs/gapdh_LG480.gif)
 ]
-
+.footnoteRight[[P04406<br>AlphaFold](https://alphafold.ebi.ac.uk/entry/P04406)]
 
 ---
 
