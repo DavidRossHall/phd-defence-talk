@@ -258,7 +258,7 @@ background-size: cover
 .footnoteRight[[Digizyme<br>2020](https://www.digizyme.com/cst_landscapes.html)]
 
 --
-## <mark style="background-color: #F17300; color:black;padding: 0px 5px 5px 5px;">Finding small-molecule/protein interactions is worse then finding a neede in a haystack </mark>
+<!-- ## <mark style="background-color: #F17300; color:black;padding: 0px 5px 5px 5px;">Finding small-molecule/protein interactions is worse then finding a neede in a haystack </mark> -->
 
 ---
 <!--## proteins jiggle 
@@ -634,27 +634,76 @@ background-size: cover
 .footnoteRight[[Test No. 236<br>OECD, 2013](https://doi.org/10.1787/9789264203709-en )]
 ---
 
-## 74 PFAS Tox results
+## Traditional fish embryo toxicity endpoints are poor predictors of weak acute and sublethal toxicities
 
+.hide-bg[
 .center[
-![:scale 50%](images/05-74PPFAS/toxData.png)
+![:scale 75%](images/05-74PFAS/toxData.png)
+]
+]
+
+.footnoteRight[[Han et al.<br><i>EHP</i>, 2021](https://ehp.niehs.nih.gov/doi/10.1289/EHP7169)]
+---
+
+## Low- and high-con
+
+.hide-bg[
+.center[
+![:scale 90%](images/05-74PFAS/dimeth.png)
+]
+]
+---
+
+## Data Independent Acquisition(DIA) captures  more information compared to Data-Dependant Acquisition (DDA)
+
+.pull-left[
+![:scale 65%](images/05-74PFAS/dda.png)
+]
+
+--
+
+.pull-right[
+![:scale 65%](images/05-74PFAS/dia.png)
 ]
 
 ---
 
+##  DIA + DIA-NN outperforms DDA + MaxQuant in coverage, intra-run and inter-run data completeness
 
-## DIA proteomics scheme
+.hide-bg[
 .center[
-![:scale 70%](images/ddavsdia.png)
+![:scale 65%](images/05-74PFAS/fig2-benchmark.png)
 ]
-split this image into two parts; pull right/left for DIA/DDA stuff. 
+]
+
 ---
 
-## 
+## Global proteome response to PFAS exposure belies chemical classification, suggesting more complex mechanisms
+
+.hide-bg[
+.center[
+![:scale 53%](images/05-74PFAS/PFAS-all-Heatmap.png)
+]
+]
+
+---
+
+## Largest dataset is available online, for other people....
+
+- shiny app data base
+- aop checking stuff over
+- exploring differences in 24 and 16
 
 ---
 class: inverse center middle
 
 # Conclusion
 
+---
+
+## stuff to add
+
+- figure from review paper & publicatiosn since then 
+- alpha fold stuff w/ interspecies 
+- future work for shit. 
 
