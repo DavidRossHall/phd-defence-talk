@@ -191,9 +191,17 @@ knitr::include_graphics("images/01-intro/want-est-2020.jpeg")
 ]
 
 .footnoteRight[[Wang, et al.<br><i>ES&T</i> 2020](https://pubs.acs.org/doi/10.1021/acs.est.9b06379)]
+
+???
+
+- < 5000 have been undergone any testing (Lancet 2019)
+- Testing requires days to analyze samples 
+  - 14 days observations
+  - one chemical at a timep
+
 ---
 
-## The majority of chemicals in use satisfy some elements of "drug-likeness"; indicating they may be bioactive
+## The majority of chemicals in use satisfy some elements of "drug-likeness" suggesting they may be bioactive
 
 .center[
   .hide-bg[
@@ -257,29 +265,12 @@ background-size: cover
 
 .footnoteRight[[Digizyme<br>2020](https://www.digizyme.com/cst_landscapes.html)]
 
---
-<!-- ## <mark style="background-color: #F17300; color:black;padding: 0px 5px 5px 5px;">Finding small-molecule/protein interactions is worse then finding a neede in a haystack </mark> -->
+???
+
+- Metaphor of repairing car (blueprints = genomes, metabolites = leaking, proteins = looking at the parts). 
+- maybe make it multiple slides... 
 
 ---
-<!--## proteins jiggle 
-
-
-.pull-left[
-![:scale 50%](images/01-intro/prot-drug.png)
-]
-
-
---
-.hide-bg[
-.pull-right[
-
-```{r, out.height = "400px", fig.align='center'}
-knitr::include_graphics(path = "gifs/de_shaw_5.gif")
-```
-]
-]
-.footnoteRight[D.E. Shaw<br>Research (2022)] -->
-
 
 ## Bottom-up proteomics uses LC-MS to measure peptides and compares them to genomic informaiton to detect proteins
 
@@ -292,6 +283,13 @@ knitr::include_graphics("images/01-intro/proteomics.png")
   ]
 ]
 
+---
+
+## System proteomics allows broad survey of global systems whereas chemical proteomic identifies exact targets. 
+
+- Make a scheme to illustrate this or a metaphor. 
+- Chemical proteomics allows people to identify targets (i.e. what chemical interacts w/ which proteins.)
+- Systems proteomics allows people to survey
 
 ---
 
@@ -349,19 +347,18 @@ class: inverse
 <!-- get CHO cytoxicuty date here: https://www.sciencedirect.com/science/article/pii/S1001074217303285 -->
 ---
 
-## Cellular assays
+## Orders of DBP cytoxicity is I > Br >> Cl,<br>but only HAMS induce Nrf2 oxidatiative stress
 
+- fix this slide
 
 .hide-bg[
   .center[
-    ![:scale 80%](images/03-DBP/assays.png)
+    ![:scale 75%](images/03-DBP/assays.png)
   ]   
 ]
 ---
 
-
-## I developped an approach using activity-based protein profilling to identify targets of mHAAs and mHAAs
-
+## To identify the targets of mHAAs and mHAMS, I developed an approach based on activity-based protein profiling
 
 .hide-bg[
   .center[
@@ -371,7 +368,7 @@ class: inverse
 
 ---
 
-## In crude lysate the general trends of I>Br>Cl cystein reactivity is preserved; in live cells specific protein targets appear
+## In crude lysate the trend of I>Br>>Cl cystein reactivity is preserved; in live cells specific protein targets appear
 
 .hide-bg[
   .center[
