@@ -233,7 +233,7 @@ knitr::include_graphics("images/01-intro/want-est-2020.jpeg")
 .pull-left[
   ![:scale 60%](images/01-intro/tcdd-tern.png)
 ]
-.footnote[[Wikimedia Commons](https://en.wikipedia.org/wiki/File:Common_tern_with_fish.jpg)]
+.footnoteLeft[[Wikimedia Commons](https://en.wikipedia.org/wiki/File:Common_tern_with_fish.jpg)]
 --
 
 - add plot of tox data for different birds in response to TCDD
@@ -254,7 +254,7 @@ knitr::include_graphics("images/01-intro/aop.png")
 
 ---
 
-## Seemingly minute differences in protein structure can account for large disparities in interspecies toxicity
+## Small differences in protein structure can account for large disparities in interspecies toxicity
 
 .hide-bg[
 .center[  
@@ -299,7 +299,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 ---
 
-## During my PhD research, I've developped proteomic methods to explore environmental chemical/protein interactions
+## During my PhD, I've developped proteomic methods to explore environmental chemical/protein interactions
 
 .center[
 ![:scale 80%](images/01-intro/overview.png)
@@ -340,7 +340,7 @@ background-color: #F9DC5C
 
 ---
 
-## Adverse health outcomes of chlorinated water consumption are caused by halogenated disinfection byproducts 
+## Adverse health outcomes of chlorinated water are caused by halogenated disinfection byproducts 
 
 .center[
 ![:scale 50%](images/03-DBP/dbps.png)
@@ -486,7 +486,7 @@ background-color: #A9BCD0
 ---
 
 
-## Reactions with reduced BSA shows detection of 8:2 FTAC modified peptides requires reworking of proteomic methods
+## Reactions with reduced BSA shows detection of 8:2 FTAC modified peptides requires reworking of methodology
 
 <!--adjust label on y-axis to state "Cysteine containing peptide" --> 
 
@@ -507,7 +507,7 @@ background-color: #A9BCD0
 
 ---
 
-## FSPE enriches very hydrophobic and PFAS modified peptides <br> which can be further resolves using C18 nLC
+## FSPE enriches very hydrophobic and PFAS modified peptides which can be further resolves using C18 nLC
 .pull-left[
 .hide-bg[
 ![:scale 95%](images/04-FSPE/bsa-fractions.png)
@@ -672,7 +672,7 @@ background-size: cover
 ]
 ---
 
-## Data Independent Acquisition(DIA) captures  more information compared to Data-Dependant Acquisition (DDA)
+## Data Independent Acquisition(DIA) captures  more information vs. Data-Dependant Acquisition (DDA)
 
 .pull-left[
 ![:scale 65%](images/05-74PFAS/dda.png)
@@ -696,7 +696,7 @@ background-size: cover
 
 ---
 
-## Global proteome response to PFAS exposure belies chemical classification, suggesting more complex mechanisms
+## Proteome response to PFAS exposure belies chemical classification, suggesting more complex mechanisms
 
 .hide-bg[
 .center[
