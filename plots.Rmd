@@ -36,3 +36,51 @@ ggplot(data = df,
                      breaks = c(0.5, 1, 2, 4, 8)) +
   coord_flip(ylim = c(0.5, 8))
 ```
+
+```{r}
+library(tidyverse)
+
+tox <- read_csv("data/pcb77_bird_tox.csv")
+
+p <- ggplot(data = tox,
+       aes(x = dose,
+           y = mortality,
+           colour = species)) +
+  geom_point(size = 3, alpha = 0.8) +
+ #   scale_x_log10(
+ #    breaks = scales::trans_breaks("log10", function(x) 10^x),
+ #    labels = scales::trans_format("log10", scale::)
+ #  #  labels = scales::label_number(scale_cut = scales::cut_long_scale())
+ # ) +
+  scale_x_log10() +
+  annotation_logticks(sides = "b",
+                      short = unit(.5,"mm"),
+                      mid = unit(3,"mm"),
+                      long = unit(4,"mm")
+) +
+  scale_y_continuous(labels = scales::percent_format(scale = 1)) +
+  labs(x = "PCB 77 Dose (ng/g)",
+       y = "Avian Embryo Mortality ") +
+  theme_bw() +
+  theme(panel.grid.minor = element_blank(),
+        text = element_text(size = 16) )
+
+p2 <- p +
+  geom_curve(
+  aes(x =  4000, y = 19, xend = 5000, yend = 5),
+  colour = "black",
+  curvature = -0.15,
+  arrow = arrow(length = unit(0.03, "npc"))
+) +
+  annotate("text", x = 4100, y = 25.5, hjust = 1, label = "Herring gull\n& Duck")
+
+p2
+```
+
+```{r, eval = FALSE}
+ggsave(filename = "images/01-intro/pcb77_tox.png",
+       plot = p2, 
+       units = "in", 
+       height = 4, 
+       width = 6)
+```

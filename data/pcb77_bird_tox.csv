@@ -1,0 +1,16 @@
+dose,mortality,species,compound,conc_units
+0,15,chicken,PCB 77,ng/g
+5,55,chicken,PCB 77,ng/g
+20,100,chicken,PCB 77,ng/g
+0,12,pheasant,PCB 77,ng/g
+100,12,pheasant,PCB 77,ng/g
+1000,100,pheasant,PCB 77,ng/g
+0,10,turkey,PCB 77,ng/g
+40,12,turkey,PCB 77,ng/g
+200,17,turkey,PCB 77,ng/g
+1000,60,turkey,PCB 77,ng/g
+0,0,duck,PCB 77,ng/g
+1000,11,duck,PCB 77,ng/g
+5000,0,duck,PCB 77,ng/g
+0,14,herring gull,PCB 77,ng/g
+1000,13,herring gull,PCB 77,ng/g

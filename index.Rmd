@@ -178,11 +178,11 @@ background-color: #000000
 
 class: center, middle
 
-## Traditional animal-based toxicity/risk assessments<br>faces two major hurdles. 
+## Traditional animal-based toxicity/risk assessments<br>faces two major problems 
 
 ---
 
-## First, the throughput of animal testing can't cope with the<br>number of unique registered chemicals and mixtures 
+## Problem 1: the throughput of animal-based testing cannot cope with the number of chemicals in use 
 
 .center[
   .hide-bg[
@@ -203,41 +203,26 @@ knitr::include_graphics("images/01-intro/want-est-2020.jpeg")
 
 ---
 
-## The majority of chemicals in use satisfy some elements of "drug-likeness"; suggesting they are bioavailable
-
-.center[
-  .hide-bg[
-   ![:scale 65%](images/01-intro/lipinski-defence-talk.png)
-  ]
-]
-.footnoteRight[[Data from<br>TSCA](https://pubs.acs.org/doi/10.1021/acs.est.9b06379)]
-
-???
-
-- Lipinski's rule of 5: < 500 Da, 0 < LogP < 5,<=5 hydrogen bond donors, <= 10 Hydrogen bond acceptors (N, O)
-- ~ 35 000 compounds inside the box
-- Not a large pool compared to pharmaceutical screening, 
-- Not concerned with something good happening (i.e. pharma); only concerned if something bad happens...
+blank to keep consistent slide numbers for notes, remove afterwardss
 
 ---
 
-## Single species testing does not reflect<br>interspecies variation in toxic response 
+## Problem 2: single species testing does not reflect<br>interspecies variation in toxic response(s) 
 
-???
-
-- Implicitly understood
-  - Dog vs. human response to chocolate
-- TCDD extremely toxic, but Terns are 80- to 250-fold less sensitive to compared to Chickens
-- Variance in two amino acid residues in the aromatic hydrocarbon receptor (AHR) ligand-binding domain (LBD) that account for the differences in AHR function, and thus contribute to the species differences in sensitivity to HAHs.
---
-.pull-left[
-  ![:scale 60%](images/01-intro/tcdd-tern.png)
+.hide-bg[
+.left-column[
+![:scale 100%](images/01-intro/pcb77.png)
 ]
-.footnoteLeft[[Wikimedia Commons](https://en.wikipedia.org/wiki/File:Common_tern_with_fish.jpg)]
---
+]
+.hide-bg[
+.right-column[ 
+.center[
+![:scale 80%](images/01-intro/pcb77_tox.png)
+]
+]
+]
 
-- add plot of tox data for different birds in response to TCDD
-
+.footnoteRight[[Data from<br>Kennedy<br>et al., 1996](https://www.sciencedirect.com/science/article/pii/S0041008X96800275)]
 ---
 
 ## Adverse Outcome Pathways address these issues, but animal testing fails to elucidate *molecular* mechanisms of toxicity
