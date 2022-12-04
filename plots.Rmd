@@ -72,7 +72,8 @@ p2 <- p +
   curvature = -0.15,
   arrow = arrow(length = unit(0.03, "npc"))
 ) +
-  annotate("text", x = 4100, y = 25.5, hjust = 1, label = "Herring gull\n& Duck")
+  annotate("text", x = 4100, y = 25.5, hjust = 1, label = "Herring gull\n& Duck") +
+  scale_colour_discrete(breaks=c("chicken", "pheasant", "turkey", "duck", "herring gull"))
 
 p2
 ```
