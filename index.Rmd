@@ -203,10 +203,6 @@ knitr::include_graphics("images/01-intro/want-est-2020.jpeg")
 
 ---
 
-blank to keep consistent slide numbers for notes, remove afterwardss
-
----
-
 ## Problem 2: single species testing does not reflect<br>interspecies variation in toxic response(s) 
 
 .hide-bg[
@@ -219,7 +215,7 @@ blank to keep consistent slide numbers for notes, remove afterwardss
 .footnoteRight[[Data from<br>Kennedy<br>et al., 1996](https://www.sciencedirect.com/science/article/pii/S0041008X96800275)]
 ---
 
-## Adverse Outcome Pathways address these issues, but animal testing fails to elucidate *molecular* mechanisms of toxicity
+## AOPs can address these issues, but animal testing fails to elucidate *molecular* mechanisms of toxicity
 
 .hide-bg[
   .center[
@@ -276,11 +272,21 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 ---
 
-## System proteomics allows broad survey of global systems whereas chemical proteomic identifies exact targets. 
+## Expression proteomics is a survey of the proteome whereas chemical proteomics IDs chemical-protein interactions 
 
-- Make a scheme to illustrate this or a metaphor. 
-- Chemical proteomics allows people to identify targets (i.e. what chemical interacts w/ which proteins.)
-- Systems proteomics allows people to survey
+.pull-left[![:scale 75%](images/01-intro/heatmap.png)
+
+- **Generalized** sample prep
+- **High** throughput
+- **Global proteome** profiles
+]
+
+.pull-right[![:scale 75%](images/01-intro/target.png)
+
+- **Specialized** sample prep
+- **Low** throughput
+- **Chemical-protein** interactions
+]
 
 ---
 
@@ -312,16 +318,14 @@ background-color: #F9DC5C
 ![:scale 60%](images/03-DBP/dbp-toc.png)
 ]
 
-<!-- --- -->
+## Long-term consumption of water disinfected via chlorination is linked to increased incidences of bladder cancer -->
 
-<!-- ## Long-term consumption of water disinfected via chlorination is linked to increased incidences of bladder cancer -->
-
-<!-- .hide-bg[ -->
-<!-- .center[ -->
-<!-- ![:scale 60%](images/03-DBP/hrudey-2009-cropped.png) -->
-<!-- ] -->
-<!-- ] -->
-<!-- .footnoteRight[[Hrudey<br>2009](https://www.sciencedirect.com/science/article/pii/S0043135409000943?via%3Dihub#fig4)] -->
+.hide-bg[
+.center[
+![:scale 60%](images/03-DBP/hrudey-2009-cropped.png)
+]
+]
+.footnoteRight[[Hrudey<br>2009](https://www.sciencedirect.com/science/article/pii/S0043135409000943?via%3Dihub#fig4)]
 
 ---
 
@@ -690,7 +694,7 @@ background-size: cover
 
 1. Toxicoproteomic response of PFAS exposure belies classification
 
-1. Proteomics revealss insights into mechanisms not observable until many days/weeks post hatching
+1. Proteomics reveals insights into mechanisms not observable until many days/weeks post hatching
 
 ]
 
@@ -709,13 +713,13 @@ class: inverse center middle
 
 ## stuff to add
 
-- figure from review paper & publicatiosn since then 
+- figure from review paper & publications since then 
 - alpha fold stuff w/ interspecies 
 - future work for shit. 
 
 ---
 
-## Questions
+## Questions?
 
 <br>
 <br>
