@@ -85,3 +85,48 @@ ggsave(filename = "images/01-intro/pcb77_tox.png",
        height = 4, 
        width = 6)
 ```
+
+## Ahr binding plot
+
+-   Karchner et al. PNAS 2009
+
+```{r}
+library(tidyverse)
+# data extracted from Fig. 4D using webplot digitizer
+ahr <- data.frame("variant" = c("Chicken", "Tern", "Tern T258A", "Tern V3251I", "Tern A381S"),
+                  "ahr_binding" = c(100, 21, 16.5, 65.5, 81.0))
+
+
+q <- ggplot(data = ahr, 
+       aes(x = fct_reorder(variant, ahr_binding), 
+           y = ahr_binding,
+           colour = variant)) +
+  # geom_bar(stat = "identity") +
+  # geom_hline(yintercept=seq(25, 100, 25), col="white", lwd=1) +
+  geom_segment(aes(x = fct_reorder(variant, ahr_binding), 
+                   xend = fct_reorder(variant, ahr_binding),
+                   y = 0, 
+                   yend = ahr_binding),
+               colour = "black") +
+  geom_point(size=5) +
+  scale_y_continuous(labels = scales::percent_format(scale = 1)) +
+  viridis::scale_color_viridis(discrete=TRUE) +
+  theme_classic() +
+  theme(legend.position = "none",
+        text = element_text(size = 16)) +
+  labs(x = "",
+       y = "Percent Chicken AHR\nspecific binding") +
+  coord_flip()
+q
+
+```
+```{r}
+q2 <- q +
+    geom_curve(
+  aes(x =  4000, y = 19, xend = 5000, yend = 5),
+  colour = "black",
+  curvature = -0.15,
+  arrow = arrow(length = unit(0.03, "npc"))
+) +
+  annotate("text", x = 4100, y = 25.5, hjust = 1, label = "Herring gull\n& Duck") +
+```
