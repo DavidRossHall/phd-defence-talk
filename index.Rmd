@@ -500,7 +500,7 @@ background-color: #A9BCD0
 ]
 ---
 
-## FSPE enrichement of 8:2 FTAC reacted crude cell lysate helps identify over 100 unique  8:2 FTAC modified proteins
+## FSPE enrichement of 8:2 FTAC reacted crude cell lysate enabled the identification of >100  modified proteins
 
 .hide-bg[
 .center[
@@ -594,21 +594,12 @@ background-color: #22AED1
 background-image: url("images/05-74PFAS/74PFAS.png")
 background-size: cover
 
-
-
-## PFAS exhibit surprising structural diversity
+## PFAS are a structurally diverse class of compounds
 
 .footnoteRight[[Patlewicz, et al.<br><i>EHP</i> 2019<br> ](https://ehp.niehs.nih.gov/doi/10.1289/EHP4555)]
 
 ---
-background-image: url("images/05-74PFAS/zebrafish_embryo.jpg")
-background-size: cover
-
-.footnoteLeft[[Cavanagh &<br>McCarthy, 2014](https://ki-images.mit.edu/2014/wellcome)]
-
----
-
-## Fish Embryo Toxicity testing for is logistically simple<br>and sensitive to acute toxicity
+## Fish Embryo Toxicity testing  is a logistically simple<br>and sensitive measure of acute toxicity
 
 .center[
 .hide-bg[
@@ -617,6 +608,12 @@ background-size: cover
 ]
 
 .footnoteRight[[Test No. 236<br>OECD, 2013](https://doi.org/10.1787/9789264203709-en )]
+
+---
+background-image: url("images/05-74PFAS/zebrafish_embryo.jpg")
+background-size: cover
+
+.footnoteLeft[[Cavanagh &<br>McCarthy, 2014](https://ki-images.mit.edu/2014/wellcome)]
 
 ---
 
@@ -632,7 +629,7 @@ background-size: cover
 
 ---
 
-## Low- and high-con
+## Multiplexing exposure proteomic samples reduces<br>instrument time and improves quantification
 
 .hide-bg[
 .center[
@@ -641,7 +638,7 @@ background-size: cover
 ]
 ---
 
-## Data Independent Acquisition(DIA) captures  more information vs. Data-Dependant Acquisition (DDA)
+## DIA aquisition captures more information than standard DDA, but at the cost of increased data complexity
 
 .pull-left[
 ![:scale 65%](images/05-74PFAS/dda.png)
@@ -655,7 +652,7 @@ background-size: cover
 
 ---
 
-##  DIA + DIA-NN outperforms DDA + MaxQuant in coverage, intra-run and inter-run data completeness
+##  DIA outperforms DDA in coverage, intra-run and inter-run data completeness
 
 .hide-bg[
 .center[
@@ -682,6 +679,28 @@ background-size: cover
 - exploring differences in 24 and 16
 
 ---
+
+
+## Conlusions of 7 PFAS Toxicoproteomics atlast
+
+.pull-left[
+
+
+1. DIA proteomics + ELS zebrafish exposure is a high-throughput approach to toxicity screening
+
+1. Toxicoproteomic response of PFAS exposure belies classification
+
+1. Proteomics revealss insights into mechanisms not observable until many days/weeks post hatching
+
+]
+
+
+.pull-right[
+![:scale 100%](images/05-74PFAS/74pfas-toc.png)
+]
+
+
+---
 class: inverse center middle
 
 # Conclusion
@@ -694,3 +713,12 @@ class: inverse center middle
 - alpha fold stuff w/ interspecies 
 - future work for shit. 
 
+---
+
+## Questions
+
+<br>
+<br>
+.right[
+![:scale 60%](images/01-intro/thesis-toc.png)
+]
