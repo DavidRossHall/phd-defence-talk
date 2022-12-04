@@ -95,38 +95,56 @@ library(tidyverse)
 # data extracted from Fig. 4D using webplot digitizer
 ahr <- data.frame("variant" = c("Chicken", "Tern", "Tern T258A", "Tern V3251I", "Tern A381S"),
                   "ahr_binding" = c(100, 21, 16.5, 65.5, 81.0))
-
+point_colour <- "#3453A5"
 
 q <- ggplot(data = ahr, 
        aes(x = fct_reorder(variant, ahr_binding), 
-           y = ahr_binding,
-           colour = variant)) +
+           y = ahr_binding)) +
   # geom_bar(stat = "identity") +
   # geom_hline(yintercept=seq(25, 100, 25), col="white", lwd=1) +
   geom_segment(aes(x = fct_reorder(variant, ahr_binding), 
                    xend = fct_reorder(variant, ahr_binding),
                    y = 0, 
                    yend = ahr_binding),
-               colour = "black") +
-  geom_point(size=5) +
+               colour = point_colour) +
+  geom_point(size=5, colour = point_colour) +
   scale_y_continuous(labels = scales::percent_format(scale = 1)) +
-  viridis::scale_color_viridis(discrete=TRUE) +
   theme_classic() +
   theme(legend.position = "none",
         text = element_text(size = 16)) +
   labs(x = "",
        y = "Percent Chicken AHR\nspecific binding") +
   coord_flip()
-q
 
-```
-```{r}
 q2 <- q +
-    geom_curve(
-  aes(x =  4000, y = 19, xend = 5000, yend = 5),
-  colour = "black",
-  curvature = -0.15,
-  arrow = arrow(length = unit(0.03, "npc"))
+  geom_curve(
+    aes(x =  1.5, y = 60, xend = 1.1, yend = 20),
+    colour = "black",
+    curvature = 0.3,
+    arrow = arrow(length = unit(0.03, "npc"))
 ) +
-  annotate("text", x = 4100, y = 25.5, hjust = 1, label = "Herring gull\n& Duck") +
+    geom_curve(
+    aes(x =  1.5, y = 60, xend = 2.8, yend = 64),
+    colour = "black",
+    curvature = -0.4,
+    arrow = arrow(length = unit(0.03, "npc"))
+) +
+    geom_curve(
+    aes(x =  1.5, y = 60, xend = 3.8, yend = 81),
+    colour = "black",
+    curvature = 0.4,
+    arrow = arrow(length = unit(0.03, "npc"))
+) +
+  annotate("text", x = 1, y = 60, hjust = 0, label = "Tern amino acid\nchanged to\nchicken counterpart") 
+
+q2
+```
+```{r, eval = FALSE}
+
+ggsave(filename = "images/01-intro/ahr_binding_plot.png",
+      plot = q2, 
+      units = "in", 
+      width = 5, 
+      height = 4)
+
 ```

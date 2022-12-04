@@ -233,13 +233,13 @@ knitr::include_graphics("images/01-intro/aop.png")
 
 .hide-bg[
 .pull-left[
-![:scale 60%](images/01-intro/tcdd-ahr-pocket.png)]]
+![:scale 80%](images/01-intro/tcdd-ahr-pocket.png)]]
 
 .footnoteLeft[[Pandini et al.<br>*Biochemistry*<br> 2009](https://pubs.acs.org/doi/10.1021/bi900259z)]
 
 .hide-bg[
 .pull-right[  
-![:scale 90%](images/01-intro/ahr-tern.png)
+![:scale 100%](images/01-intro/ahr_binding_plot.png)
 ]
 ]
 
