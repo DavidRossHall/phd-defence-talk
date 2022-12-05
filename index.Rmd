@@ -327,10 +327,21 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ]
 ---
 
-# Toxicity of halogenated DBPs stems from their reactivity towards cysteine residues
+# Disinfection byproduct toxicity purportedly results from their reactivity towards, potentially critical, cystein residues 
 
-- Scheme showing reaction of cystein
-- explaining role of cystein
+.pull-left[
+![:scale 90%](images/03-DBP/dbp-cys-scheme.png)
+]
+
+.footnoteLeft[[Dong et al.<br>*ES&T*, 2018](http://pubs.acs.org/doi/10.1021/acs.est.8b01675)]
+
+--
+
+.pull-right[
+![:scale 80%](images/03-DBP/cys-roles.png)
+]
+
+.footnoteRight[[Marina & Gladyshev<br> *JBC*, 2012]()]
 
 <!-- get CHO cytoxicuty date here: https://www.sciencedirect.com/science/article/pii/S1001074217303285 -->
 ---
@@ -342,6 +353,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ![:scale 80%](images/03-DBP/assays.png)
 ]   
 ]
+.footnoteLeft[**AA** = acetic acid<br>**AM** = acetamide]
 ---
 
 # I developped an activity-based protein profiling method to identify the protein targets of mHAAs and mHAMs
@@ -368,20 +380,22 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 .hide-bg[
 .center[ 
-![:scale 80%](images/03-DBP/fig4-adducts.jpeg)
+![:scale 78%](images/03-DBP/fig4-adducts.jpeg)
 ]
 ]
+
+.footenoteLeft[**NEM** = N-ethylmaleimide]
 ---
 
 # Direct adduct monitoring provides binding-site information such as selective modification of Cys152 on GAPDH
 
 
 .center[
-![:scale 80%](images/01-intro/gapdh_cys152_fresh.png)
+![:scale 70%](images/01-intro/gapdh_cys152_fresh.png)
 ]
 
 .footnoteRight[[P04406<br>AlphaFold](https://alphafold.ebi.ac.uk/entry/P04406)]
-
+.footenoteLeft[**IAM** = iodoacetamide<br>**IAA** = iodoacetic acid]
 <!-- remove the chromatogram elements of this figure and only talk about the active site-->
 <!-- come up with a better title -->
 ---
@@ -441,6 +455,10 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 .pull-left[
 ![:scale 80%](images/04-FSPE/ftac-scheme_v2.png)
 ]
+
+.footnoteLeft[**GSH** = glutathione]
+
+--
 
 .pull-right[
 .hide-bg[
@@ -659,7 +677,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ---
 class: middle center
 
-## 74 PFAS exposures at two concentrations
+## ELS zebrafish exposures to .my-bold[74 PFAS at two concentrations]
 
 --
 # ↓
@@ -675,7 +693,7 @@ class: middle center
 
 --
 #↓
-## Relative quantfication of .my-bold[1969 proteins] across all exposures
+## Relative quantification of .my-bold[1969 proteins] across all exposures
 
 ---
 
