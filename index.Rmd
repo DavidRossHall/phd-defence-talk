@@ -427,29 +427,20 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 ---
 
-# PFAS can form covalent adducts with cysteine residues on glutathione and proteins
+# Biotransformation of 8:2 FTOH can form covalent adducts with glutathione and cysteine residues
 
-.pull-left[
-![:scale 100%](images/04-FSPE/ftoh-color.png)
+.center[
+![:scale 90%](images/04-FSPE/ftoh_v2.png)
 ]
-.footnoteLeft[[Rand & Mabury<br>(2012)](https://link.springer.com/article/10.1007/s10565-012-9211-4)]
---
-.hide-bg[
-.pull-right[
-![:scale 90%](images/04-FSPE/rand-mabury-est-2012-cropped.png)
 
-]
-]
-.footnoteRight[[Rand & Mabury <br><i>ES&T</i>, 2012](https://pubs.acs.org/doi/10.1021/es303760u)]
+.footnoteRight[[Rand & Mabury<br> *Cell Biol. Toxicol.* (2012)](https://link.springer.com/article/10.1007/s10565-012-9211-4)<br>[Rand & Mabury <br><i>ES&T</i> (2012)](https://pubs.acs.org/doi/10.1021/es303760u)]
 ---
 
-# 8:2 fluorotelomer acrylate can also undergo nucleophilic substition to form covalent thiol adducts
+# 8:2 FTAC can also form covalant adducts with glutathione
 
 .pull-left[
-![:scale 100%](images/04-FSPE/ftac-scheme.png)
+![:scale 80%](images/04-FSPE/ftac-scheme_v2.png)
 ]
-
---
 
 .pull-right[
 .hide-bg[
