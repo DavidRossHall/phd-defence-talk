@@ -45,31 +45,21 @@ library(xaringanthemer)
 
 # Colours
 
-white     <- "#FFFFFF"
-max_red   <- "#DE1A1A"
-old_gold  <- "#E0BE36"
-onyx      <- "#444545"
-yale_blue <- "#274C77"
-powder_blue <- "#BFEDEF"
-
 light_grey <- "#E0E0E0" #"#D3D3D3"
-steel_blue <- "#3E7CB1"
 rich_black <- "#051014"
 safety_orange <- "#F17300"
-maroon <- "#A13D63"
-hookers_green <- "#567568"
-
 
 style_duo_accent(
   #colours  
   primary_color = rich_black,
-  secondary_color = "#F4AC45",
+  secondary_color = safety_orange ,
   white_color = light_grey,
-  inverse_header_color = "#051014",
-  header_color = "#051014",
-  inverse_text_color = "#FF961C",
+  inverse_header_color = rich_black,
+  header_color = rich_black,
+  text_color = rich_black,
+  inverse_text_color = rich_black,
   footnote_color = rich_black,
-  link_color = "#F17300",
+  link_color = safety_orange ,
   # fonts
   header_font_google = google_font("IBM Plex Sans Extralight"),
   text_font_google = google_font("IBM Plex Sans"),
@@ -78,7 +68,7 @@ style_duo_accent(
   #padding = ("0px 40px 10px 20px"),
   # font sizes
   header_h1_font_size = "2rem",
-  header_h2_font_size = "2rem",
+  header_h2_font_size = "1.5rem",
   header_h3_font_size = "1.25rem",
   
 )
@@ -95,10 +85,10 @@ xaringanExtra::use_tile_view()
 .left-column[
 <br>
 <br>
-### **David Hall**
-### PhD Candidate
-### Dec. 9, 2022
-### 
+## **David Hall**
+## PhD Candidate
+## Dec. 9, 2022
+## 
 ]
 
 <br>
@@ -178,11 +168,11 @@ background-color: #000000
 
 class: center, middle
 
-## Traditional animal-based toxicity/risk assessments<br>faces two major problems 
+# Traditional animal-based toxicity/risk assessments<br>faces **two major problems** 
 
 ---
 
-## Problem 1: the throughput of animal-based testing cannot cope with the number of chemicals in use 
+# Problem 1: the throughput of animal-based testing cannot cope with the number of chemicals in use 
 
 .center[
   .hide-bg[
@@ -203,7 +193,7 @@ knitr::include_graphics("images/01-intro/want-est-2020.jpeg")
 
 ---
 
-## Problem 2: single species testing does not reflect<br>interspecies variation in toxic response(s) 
+# Problem 2: single species testing does not reflect<br>interspecies variation in toxic response(s) 
 
 .hide-bg[
 .center[
@@ -215,25 +205,25 @@ knitr::include_graphics("images/01-intro/want-est-2020.jpeg")
 .footnoteRight[[Data from<br>Kennedy<br>et al., 1996](https://www.sciencedirect.com/science/article/pii/S0041008X96800275)]
 ---
 
-## AOPs can address these issues, but animal testing fails to elucidate *molecular* mechanisms of toxicity
+# AOPs can address these issues, but animal testing fails to elucidate *molecular* mechanisms of toxicity
 
 .hide-bg[
   .center[
-```{r, out.width="88%", echo = FALSE}
+```{r, out.width="80%", echo = FALSE}
 knitr::include_graphics("images/01-intro/aop.png")
 ```
   ]
 ]
 
-.footnoteRight[[Ankley et al.<br><i>Env. Tox. &<br>Chem.</i> 2009](https://www.pnas.org/doi/10.1073/pnas.0509950103)]
+.footnoteRight[[Ankley et al.<br><i>Env. Tox. &<br>Chem.</i> 2010](https://setac.onlinelibrary.wiley.com/doi/10.1002/etc.34)]
 
 ---
 
-## Small differences in protein structure can account for large disparities in interspecies toxicity
+# Small differences in protein structure can account for large disparities in interspecies toxicity
 
 .hide-bg[
 .pull-left[
-![:scale 80%](images/01-intro/tcdd-ahr-pocket.png)]]
+![:scale 70%](images/01-intro/tcdd-ahr-pocket.png)]]
 
 .footnoteLeft[[Pandini et al.<br>*Biochemistry*<br> 2009](https://pubs.acs.org/doi/10.1021/bi900259z)]
 
@@ -262,7 +252,7 @@ background-size: cover
 
 ---
 
-## The identification and quantification of thousands of proteins is possible via LC-MS proteomics
+# The identification and quantification of thousands of proteins is possible via LC-MS proteomics
 
 .hide-bg[
   .center[
@@ -274,7 +264,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 ---
 
-## Expression proteomics is a survey of the proteome whereas chemical proteomics IDs chemical-protein interactions 
+# Expression proteomics is a survey of the proteome whereas chemical proteomics IDs chemical-protein interactions 
 
 .pull-left[![:scale 75%](images/01-intro/heatmap.png)
 
@@ -292,7 +282,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 ---
 
-## During my PhD, I've developped proteomic methods to explore environmental chemical/protein interactions
+# During my PhD, I've developped proteomic methods to explore environmental chemical/protein interactions
 
 .center[
 ![:scale 80%](images/01-intro/overview.png)
@@ -301,17 +291,14 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 ---
 
-class: inverse
-background-color: #F9DC5C
 
-# Monohaloacetic Acids and Monohaloacetamides Attack Distinct Cellular Proteome Thiols
-
+# *Project 1*: Profilling Proteome  Thiol Reactivity of Monohaloacetic Acids and Monohaloacetamides 
 .left-column[
 <br>
 <br>
-### <mark style="background-color: #F9DC5C; color:black;">David Hall, Kirsten Yeung, and Hui Peng </mark>
-#### <mark style="background-color: #F9DC5C; color:black;">Published in *ES&T*, 2022, 54, 23, 15191-15201, </mark>
-### 
+## <p style="color:black;">David Hall, Kirsten Yeung, and Hui Peng </p>
+### Published in *ES&T*, 2022, 54, 23, 15191-15201
+## 
 ]
 
 <br>
@@ -322,7 +309,7 @@ background-color: #F9DC5C
 
 ---
 
-## Long-term consumption of water disinfected via chlorination is linked to increased incidences of bladder cancer
+# Long-term consumption of chlorinated water is epidemiologically linked to bladder cancer
 
 .hide-bg[
 .center[
@@ -333,14 +320,14 @@ background-color: #F9DC5C
 
 ---
 
-## Adverse health outcomes of chlorinated water are caused by halogenated disinfection byproducts 
+# Adverse health outcomes of chlorinated water are caused by halogenated disinfection byproducts 
 
 .center[
 ![:scale 50%](images/03-DBP/dbps.png)
 ]
 ---
 
-## Toxicity of halogenated DBPs stems from their reactivity towards cysteine residues
+# Toxicity of halogenated DBPs stems from their reactivity towards cysteine residues
 
 - Scheme showing reaction of cystein
 - explaining role of cystein
@@ -348,7 +335,7 @@ background-color: #F9DC5C
 <!-- get CHO cytoxicuty date here: https://www.sciencedirect.com/science/article/pii/S1001074217303285 -->
 ---
 
-## Order of DBP cytoxicity is I > Br >> Cl,<br>but only HAMS induce Nrf2 oxidatiative stress
+# Order of DBP cytoxicity is I > Br >> Cl,<br>but only HAMS induce Nrf2 oxidatiative stress
 
 .hide-bg[
 .center[
@@ -357,7 +344,7 @@ background-color: #F9DC5C
 ]
 ---
 
-## I developped an activity-based protein profiling method to identify the protein targets of mHAAs and mHAMs
+# I developped an activity-based protein profiling method to identify the protein targets of mHAAs and mHAMs
 
 .hide-bg[
   .center[
@@ -367,7 +354,7 @@ background-color: #F9DC5C
 
 ---
 
-## Biotin-affinity LC-MS analysis reveals compound<br> and class specific protein targets 
+# Biotin-affinity LC-MS analysis reveals compound<br> and class specific protein targets 
 
 <!-- if possible remake figures w/ different colours so I can remove background -->
 
@@ -377,7 +364,7 @@ background-color: #F9DC5C
 ]
 ]
 ---
-## Direct adduct monitoring directly validated many of the suspected targets of IAM and IAA
+# Direct adduct monitoring directly validated many of the suspected targets of IAM and IAA
 
 .hide-bg[
 .center[ 
@@ -386,7 +373,7 @@ background-color: #F9DC5C
 ]
 ---
 
-## Direct adduct monitoring provides binding-site information such as selective modification of Cys152 on GAPDH
+# Direct adduct monitoring provides binding-site information such as selective modification of Cys152 on GAPDH
 
 
 .center[
@@ -400,15 +387,19 @@ background-color: #F9DC5C
 ---
 
 
-## DBP conclusions
+# *Project 1* Conclusions
 
 <!-- come up with cleaner conclusions --> 
 
 .pull-left[
 
-1. Class and Compound specific Differences in DBP protein targets
-2. Differences in toxicity responses can be accounted for by protein targets
-3. Cys reactivity used to fish for reactive DBPs (Hi Kirsten 👋)
+
+1. Class and compound specific differences in DBP cytotoxicity
+
+1. ABPP and adduct monitoring can readily identify DBP protein targets
+
+1. Differences in toxicity responses can be accounted for by variation in protein targets
+
 ]
 
 .pull-right[
@@ -419,14 +410,12 @@ background-color: #F9DC5C
 
 ---
 
-background-color: #A9BCD0
-
-# Querying the Upper-Bounds of Long-Chain PFAS modification of Proteomic Thiols
+# *Project 2*: Development of Fluorous Solid Phase for the Enrichement of Long-Chain PFAS modified peptides
 
 .left-column[
 <br>
 <br>
-### <p style="color:black;">David Hall, Jeremy Gauthier, and Hui Peng </p>
+## <p style="color:black;">David Hall, Jeremy Gauthier, and Hui Peng </p>
  
 ]  
 
@@ -438,7 +427,7 @@ background-color: #A9BCD0
 
 ---
 
-## PFAS can form covalent adducts with cysteine residues on glutathione and proteins
+# PFAS can form covalent adducts with cysteine residues on glutathione and proteins
 
 .pull-left[
 ![:scale 100%](images/04-FSPE/ftoh-color.png)
@@ -454,7 +443,7 @@ background-color: #A9BCD0
 .footnoteRight[[Rand & Mabury <br><i>ES&T</i>, 2012](https://pubs.acs.org/doi/10.1021/es303760u)]
 ---
 
-## 8:2 fluorotelomer acrylate can also undergo nucleophilic substition to form covalent thiol adducts
+# 8:2 fluorotelomer acrylate can also undergo nucleophilic substition to form covalent thiol adducts
 
 .pull-left[
 ![:scale 100%](images/04-FSPE/ftac-scheme.png)
@@ -470,8 +459,7 @@ background-color: #A9BCD0
 
 ---
 
-
-## Reactions with reduced BSA shows detection of 8:2 FTAC modified peptides requires reworking of methodology
+# Low-intensity and overlapping retention times of 8:2 FTAC modified peptides hampers detection
 
 <!--adjust label on y-axis to state "Cysteine containing peptide" --> 
 
@@ -480,9 +468,11 @@ background-color: #A9BCD0
 ![:scale 60%](images/04-FSPE/FTAC-BSA-RTshifts-size.png)
 ]
 ]
+
+.footnoteLeft[**BSA** = Bovine<br>Serum Albumin<br>**IAM** = iodoacetamide]
 ---
 
-## To selectively enrich long-chain PFAS adducted peptides I refined existing Fluorous Solid Phase Extraction methods
+# To selectively enrich long-chain PFAS adducted peptides I refined existing Fluorous Solid Phase Extraction methods
 
 .center[
 ![:scale 90%](images/04-FSPE/fspe-scheme.png)
@@ -492,10 +482,10 @@ background-color: #A9BCD0
 
 ---
 
-## FSPE enriches very hydrophobic and PFAS modified peptides which can be further resolved using C18 nLC
+# FSPE enriches very hydrophobic and PFAS modified peptides which can be further resolved using C18 nLC
 .pull-left[
 .hide-bg[
-![:scale 95%](images/04-FSPE/bsa-fractions.png)
+![:scale 85%](images/04-FSPE/bsa-fractions.png)
 ]
 ]
 
@@ -503,12 +493,12 @@ background-color: #A9BCD0
 
 .pull-right[
 .hide-bg[
-![:scale 90%](images/04-FSPE/nLC-fspe.png)
+![:scale 85%](images/04-FSPE/nLC-fspe.png)
 ]
 ]
 ---
 
-## FSPE enrichement of 8:2 FTAC reacted crude cell lysate enabled the identification of >100  modified proteins
+# FSPE enrichement of 8:2 FTAC reacted crude cell lysate enabled the identification of >100  modified proteins
 
 .hide-bg[
 .center[
@@ -520,7 +510,7 @@ background-color: #A9BCD0
 
 ---
 
-## GAPDH is modified by 8:2 FTAC at Cys247 and not the catalytic Cys152 residue inside binding pocket 
+# GAPDH is modified by 8:2 FTAC at Cys247 and not the catalytic Cys152 residue inside binding pocket 
 
 
 .center[
@@ -534,7 +524,7 @@ background-color: #A9BCD0
 
 ---
 
-## Of 110 modified proteins, 9 have anotated nucleophilic residiues none of which are modified by 8:2 FTAC
+# Of 110 modified proteins, 9 have anotated nucleophilic residiues none of which are modified by 8:2 FTAC
 <!-- get exact number of proteins -->
 .hide-bg[
 .center[
@@ -544,7 +534,7 @@ background-color: #A9BCD0
 ---
 
 
-## Long-Chain PFAS adducts promote protein aggregation in<br>*in vitro* crude lysate
+# Long-Chain PFAS adducts promote protein aggregation in<br>*in vitro* crude lysate
 
 .hide-bg[
 .center[
@@ -555,7 +545,7 @@ background-color: #A9BCD0
 ---
 
 
-## FSPE Conclusions
+# FSPE Conclusions
 
 .pull-left[
 
@@ -585,10 +575,10 @@ background-color: #22AED1
 .left-column[
 <br>
 <br>
-### <p style="color:black;">David Hall, Jiajun Han, Wen Gu, Diwen Yang, and Hui Peng </p>
+## <p style="color:black;">David Hall, Jiajun Han, Wen Gu, Diwen Yang, and Hui Peng </p>
 
-###  
-### 
+##  
+## 
 ]
 
 <br>
@@ -602,12 +592,12 @@ background-color: #22AED1
 background-image: url("images/05-74PFAS/74PFAS.png")
 background-size: cover
 
-## PFAS are a structurally diverse class of compounds
+# PFAS are a structurally diverse class of compounds
 
 .footnoteRight[[Patlewicz, et al.<br><i>EHP</i> 2019<br> ](https://ehp.niehs.nih.gov/doi/10.1289/EHP4555)]
 
 ---
-## Fish Embryo Toxicity testing  is a logistically simple<br>and sensitive measure of acute toxicity
+# Fish Embryo Toxicity testing  is a logistically simple<br>and sensitive measure of acute toxicity
 
 .center[
 .hide-bg[
@@ -625,7 +615,7 @@ background-size: cover
 
 ---
 
-## Traditional fish embryo toxicity endpoints are poor predictors of weak acute and sublethal toxicities
+# Traditional fish embryo toxicity endpoints are poor predictors of weak acute and sublethal toxicities
 
 .hide-bg[
 .center[
@@ -637,7 +627,7 @@ background-size: cover
 
 ---
 
-## Multiplexing exposure proteomic samples reduces<br>instrument time and improves quantification
+# Multiplexing exposure proteomic samples reduces<br>instrument time and improves quantification
 
 .hide-bg[
 .center[
@@ -646,7 +636,7 @@ background-size: cover
 ]
 ---
 
-## DIA aquisition captures more information than standard DDA, but at the cost of increased data complexity
+# DIA aquisition captures more information than standard DDA, but at the cost of increased data complexity
 
 .pull-left[
 ![:scale 65%](images/05-74PFAS/dda.png)
@@ -660,7 +650,7 @@ background-size: cover
 
 ---
 
-##  DIA outperforms DDA in coverage, intra-run and inter-run data completeness
+#  DIA outperforms DDA in coverage, intra-run and inter-run data completeness
 
 .hide-bg[
 .center[
@@ -670,7 +660,7 @@ background-size: cover
 
 ---
 
-## Proteome response to PFAS exposure belies chemical classification, suggesting more complex mechanisms
+# Proteome response to PFAS exposure belies chemical classification, suggesting more complex mechanisms
 
 .hide-bg[
 .center[
@@ -680,7 +670,7 @@ background-size: cover
 
 ---
 
-## Largest dataset is available online, for other people....
+# Largest dataset is available online, for other people....
 
 - shiny app data base
 - aop checking stuff over
@@ -689,7 +679,7 @@ background-size: cover
 ---
 
 
-## Conlusions of 7 PFAS Toxicoproteomics atlast
+# Conlusions of 7 PFAS Toxicoproteomics atlast
 
 .pull-left[
 
@@ -715,7 +705,7 @@ class: inverse center middle
 
 ---
 
-## stuff to add
+# stuff to add
 
 - figure from review paper & publications since then 
 - alpha fold stuff w/ interspecies 
@@ -723,7 +713,7 @@ class: inverse center middle
 
 ---
 
-## Questions?
+# Questions?
 
 <br>
 <br>

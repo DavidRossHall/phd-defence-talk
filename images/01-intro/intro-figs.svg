@@ -43,12 +43,12 @@
      showgrid="false"
      width="211mm"
      units="in"
-     inkscape:zoom="2"
-     inkscape:cx="2778.3002"
-     inkscape:cy="1460.8179"
-     inkscape:window-width="2560"
-     inkscape:window-height="1404"
-     inkscape:window-x="2256"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="2924.4869"
+     inkscape:cy="1509.0203"
+     inkscape:window-width="2256"
+     inkscape:window-height="1424"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
@@ -59,13 +59,28 @@
   <defs
      id="defs2">
     <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1329"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1327" />
+    </marker>
+    <marker
        inkscape:stockid="Arrow2Mend"
        orient="auto"
        refY="0.0"
        refX="0.0"
        id="marker1307"
        style="overflow:visible;"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          id="path1305"
          style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
@@ -1113,7 +1128,7 @@
            height="229.1026"
            x="-956.00836"
            y="-30.721548" /></flowRegion><flowPara
-         id="flowPara2055"></flowPara></flowRoot>    <g
+         id="flowPara2055" /></flowRoot>    <g
        id="g2515"
        inkscape:export-xdpi="200"
        inkscape:export-ydpi="200">
@@ -1463,41 +1478,134 @@
            style="stroke-width:2.53999996;stroke-miterlimit:3.5;stroke-dasharray:none" />
       </g>
     </g>
-    <g
-       id="g2537"
-       inkscape:export-xdpi="200"
-       inkscape:export-ydpi="200">
-      <rect
-         y="-202.73222"
-         x="685.21332"
-         height="68.402199"
-         width="76.199997"
-         id="rect2531"
-         style="fill:#92c5af;fill-opacity:0.0077821;stroke:none;stroke-width:5.12760448;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1207"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion1209"><rect
+           id="rect1211"
+           width="374"
+           height="79"
+           x="2709"
+           y="-435.96802" /></flowRegion><flowPara
+         id="flowPara1213"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1223"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion1225"><rect
+           id="rect1227"
+           width="834"
+           height="309"
+           x="2803"
+           y="-388.96802" /></flowRegion><flowPara
+         id="flowPara1229"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1243"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458334)"><flowRegion
+         id="flowRegion1245"><rect
+           id="rect1247"
+           width="290"
+           height="92"
+           x="2843"
+           y="-300.96802" /></flowRegion><flowPara
+         id="flowPara1249" /></flowRoot>    <g
+       id="g1445"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
-         inkscape:export-ydpi="200"
-         inkscape:export-xdpi="200"
-         id="g912"
-         transform="translate(322.58033,-271.86147)">
-        <image
-           sodipodi:absref="/home/david/PhD/phd-defence-talk/images/01-intro/tcdd_ahr_raw.jpeg"
-           xlink:href="tcdd_ahr_raw.jpeg"
-           y="69.460831"
-           x="389.32629"
-           id="image899"
-           preserveAspectRatio="none"
-           height="68.410667"
-           width="157.05666"
-           clip-path="url(#clipPath904)"
-           transform="translate(-0.119933,-0.33581239)" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458335"
-           id="rect908"
-           width="6.2416801"
-           height="4.6812601"
-           x="389.21854"
-           y="69.759384" />
+         transform="translate(0.18708867)"
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         id="g1413">
+        <g
+           id="g1285"
+           inkscape:export-xdpi="200"
+           inkscape:export-ydpi="200">
+          <rect
+             y="-199.29263"
+             x="698.82556"
+             height="68.402199"
+             width="65.986549"
+             id="rect2531"
+             style="fill:#92c5af;fill-opacity:0;stroke:none;stroke-width:4.77160788;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1" />
+          <g
+             id="g1272">
+            <g
+               transform="matrix(0.98054852,0,0,1,334.50181,-271.86147)"
+               id="g912"
+               inkscape:export-xdpi="200"
+               inkscape:export-ydpi="200">
+              <image
+                 sodipodi:absref="/home/david/PhD/phd-defence-talk/images/01-intro/tcdd_ahr_raw.jpeg"
+                 xlink:href="tcdd_ahr_raw.jpeg"
+                 y="69.460831"
+                 x="389.32629"
+                 id="image899"
+                 preserveAspectRatio="none"
+                 height="68.410667"
+                 width="157.05666"
+                 clip-path="url(#clipPath904)"
+                 transform="translate(-0.119933,-0.33581239)" />
+              <rect
+                 y="69.759384"
+                 x="389.21854"
+                 height="4.6812601"
+                 width="6.2416801"
+                 id="rect908"
+                 style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458335" />
+            </g>
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-weight:normal;font-size:10.58333397px;line-height:0.40000001em;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+               x="740.45441"
+               y="-130.82797"
+               id="text1253"><tspan
+                 sodipodi:role="line"
+                 id="tspan1251"
+                 x="740.45441"
+                 y="-130.82797"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777791px;line-height:0.40000001em;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Bold';text-align:center;text-anchor:middle;stroke-width:0.26458335">Aryl Hydrocarbon Receptor</tspan><tspan
+                 sodipodi:role="line"
+                 x="740.45441"
+                 y="-126.24434"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777791px;line-height:0.40000001em;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Bold';text-align:center;text-anchor:middle;stroke-width:0.26458335"
+                 id="tspan1255">(<tspan
+   style="font-weight:bold"
+   id="tspan1293">AHR</tspan>) binding domain</tspan></text>
+          </g>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.58333397px;line-height:0.2em;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+           x="716.62994"
+           y="-199.04852"
+           id="text1289"><tspan
+             sodipodi:role="line"
+             id="tspan1287"
+             x="716.62994"
+             y="-199.04852"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:2.82222223px;line-height:0.2em;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Light';text-align:center;text-anchor:middle;stroke-width:0.26458335">2,3,7,8-Tetrachloro-</tspan><tspan
+             sodipodi:role="line"
+             x="716.96295"
+             y="-195.74901"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:0.2em;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans';text-align:center;text-anchor:middle;stroke-width:0.26458335"
+             id="tspan1299"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans Light';text-align:center;text-anchor:middle"
+   id="tspan1303">dibenzo-p-dioxin</tspan> </tspan><tspan
+             sodipodi:role="line"
+             x="716.62994"
+             y="-192.44948"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:0.2em;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans';text-align:center;text-anchor:middle;stroke-width:0.26458335"
+             id="tspan1301">(<tspan
+   style="font-weight:bold;text-align:center;text-anchor:middle"
+   id="tspan1305">TCDD</tspan>)</tspan></text>
       </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path1307"
+         d="m 722.16229,-193.3462 h 10.28986 l 4.20952,14.03165"
+         style="fill:none;stroke:#000000;stroke-width:0.50000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1329)" />
     </g>
   </g>
 </svg>

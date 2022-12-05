@@ -39,18 +39,18 @@
   --code-font-size: 0.9rem;
   --code-inline-font-size: 1em;
   --header-h1-font-size: 2rem;
-  --header-h2-font-size: 2rem;
+  --header-h2-font-size: 1.5rem;
   --header-h3-font-size: 1.25rem;
 
   /* Colors */
-  --text-color: #000000;
+  --text-color: #051014;
   --header-color: #051014;
   --background-color: #E0E0E0;
   --link-color: #F17300;
   --text-bold-color: #051014;
   --code-highlight-color: rgba(255,255,0,0.5);
-  --inverse-text-color: #FF961C;
-  --inverse-background-color: #F4AC45;
+  --inverse-text-color: #051014;
+  --inverse-background-color: #F17300;
   --inverse-header-color: #051014;
   --inverse-link-color: #F17300;
   --title-slide-background-color: #051014;
@@ -58,7 +58,7 @@
   --header-background-color: #051014;
   --header-background-text-color: #E0E0E0;
   --primary: #051014;
-  --secondary: #F4AC45;
+  --secondary: #F17300;
   --white: #E0E0E0;
   --black: #000000;
 }
@@ -178,7 +178,7 @@ img, video, iframe {
   max-width: 100%;
 }
 blockquote {
-  border-left: solid 5px #F4AC4580;
+  border-left: solid 5px #F1730080;
   padding-left: 1em;
 }
 .remark-slide table {
@@ -195,7 +195,7 @@ th, td {
 .remark-slide table:not(.table-unshaded) thead,
 .remark-slide table:not(.table-unshaded) tfoot,
 .remark-slide table:not(.table-unshaded) tr:nth-child(even) {
-  background: #FCEED9;
+  background: #FCE3CC;
 }
 table.dataTable tbody {
   background-color: var(--background-color);
@@ -205,7 +205,7 @@ table.dataTable.display tbody tr.odd {
   background-color: var(--background-color);
 }
 table.dataTable.display tbody tr.even {
-  background-color: #FCEED9;
+  background-color: #FCE3CC;
 }
 table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.5);

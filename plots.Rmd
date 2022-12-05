@@ -124,33 +124,37 @@ q <- ggplot(data = ahr,
                colour = point_colour) +
   geom_point(size=5, colour = point_colour) +
   scale_y_continuous(labels = scales::percent_format(scale = 1)) +
-  theme_classic() +
+  theme_classic(base_size = 16) +
   theme(legend.position = "none",
-        text = element_text(size = 16)) +
+        #text = element_text(size = 12)) +
+        ) +
   labs(x = "",
-       y = "Percent Chicken AHR\nspecific binding") +
+       y = "Percent TCDD binding\nvs. Chicken AHR") +
   coord_flip()
 
 q2 <- q +
+  # Tern T258A
   geom_curve(
-    aes(x =  1.5, y = 60, xend = 1.1, yend = 20),
+    aes(x =  1.4, y = 82, xend = 0.9, yend = 22),
     colour = "black",
-    curvature = 0.3,
+    curvature = -0.3,
     arrow = arrow(length = unit(0.03, "npc"))
 ) +
+  # Tern V3325I
     geom_curve(
-    aes(x =  1.5, y = 60, xend = 2.8, yend = 64),
-    colour = "black",
-    curvature = -0.4,
-    arrow = arrow(length = unit(0.03, "npc"))
-) +
-    geom_curve(
-    aes(x =  1.5, y = 60, xend = 3.8, yend = 81),
+    aes(x =  2.6, y = 82, xend = 3, yend = 70),
     colour = "black",
     curvature = 0.4,
     arrow = arrow(length = unit(0.03, "npc"))
 ) +
-  annotate("text", x = 1, y = 60, hjust = 0, label = "Tern amino acid\nchanged to\nchicken counterpart") 
+  # Tern A381S
+    geom_curve(
+    aes(x =  2.6, y = 82, xend = 3.8, yend = 83),
+    colour = "black",
+    curvature = 0.4,
+    arrow = arrow(length = unit(0.03, "npc"))
+) +
+  annotate("text", x = 2, y = 100, hjust = 1, label = "Tern amino acid\nchanged to chicken\ncounterpart") 
 
 q2
 ```
