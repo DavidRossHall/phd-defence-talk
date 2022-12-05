@@ -43,3 +43,8 @@
   mix-blend-mode: multiply;
   filter: contrast(1);
 }
+
+.my-bold {
+  font-weight: bold;
+  color: #FFA500;
+}
