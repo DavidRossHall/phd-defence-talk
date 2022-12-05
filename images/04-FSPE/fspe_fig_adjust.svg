@@ -41,7 +41,7 @@
      width="211mm"
      units="in"
      inkscape:zoom="2"
-     inkscape:cx="-2292.6162"
+     inkscape:cx="-2278.1162"
      inkscape:cy="1227.9995"
      inkscape:window-width="2256"
      inkscape:window-height="1424"
@@ -10395,55 +10395,50 @@
            x="-2584.5"
            y="-524.46802" /></flowRegion><flowPara
          id="flowPara3146"></flowPara></flowRoot>    <g
-       id="g3194"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300">
-      <g
-         transform="translate(-3.4678219e-7,-3.8205943)"
-         id="g3138">
-        <image
-           sodipodi:absref="/home/david/PhD/phd-defence-talk/images/04-FSPE/../../../phd_thesis3/figures/04-FSPE/fig2_FSPE_2col.png"
-           xlink:href="../../../phd_thesis3/figures/04-FSPE/fig2_FSPE_2col.png"
-           transform="translate(-205.05209,-50.800001)"
-           clip-path="url(#clipPath3118)"
-           style="fill:#fcffff;fill-opacity:1"
-           y="-123.07912"
-           x="-482.53458"
-           id="image86000-3-6"
-           preserveAspectRatio="none"
-           height="134.112"
-           width="177.8" />
-        <rect
-           style="fill:#fcffff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect3122"
-           width="5.5191159"
-           height="6.6416478"
-           x="-687.1767"
-           y="-116.26567" />
-        <rect
-           style="fill:#fcffff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect3124"
-           width="17.492792"
-           height="3.7417734"
-           x="-654.06201"
-           y="-118.78946" />
-      </g>
-      <flowRoot
-         transform="matrix(0.26458334,0,0,0.26458334,-12.635437,94.267578)"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25em;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         id="flowRoot3148"
-         xml:space="preserve"><flowRegion
-           id="flowRegion3150"><rect
-             y="-527.46802"
-             x="-2569.5"
-             height="66.059959"
-             width="355.19516"
-             id="rect3152" /></flowRegion><flowPara
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans';text-align:center;text-anchor:middle"
-           id="flowPara3154">F<flowSpan
-   id="flowSpan3156"
-   style="font-size:18.66666603px;baseline-shift:sub">13</flowSpan>-IAM reacted with BSA</flowPara></flowRoot>    </g>
+       id="g3138"
+       transform="translate(-3.4678219e-7,-3.8205943)">
+      <image
+         sodipodi:absref="/home/david/PhD/phd-defence-talk/images/04-FSPE/../../../phd_thesis3/figures/04-FSPE/fig2_FSPE_2col.png"
+         xlink:href="../../../phd_thesis3/figures/04-FSPE/fig2_FSPE_2col.png"
+         width="177.8"
+         height="134.112"
+         preserveAspectRatio="none"
+         id="image86000-3-6"
+         x="-482.53458"
+         y="-123.07912"
+         style="fill:#fcffff;fill-opacity:1"
+         clip-path="url(#clipPath3118)"
+         transform="translate(-205.05209,-50.800001)" />
+      <rect
+         y="-116.26567"
+         x="-687.1767"
+         height="6.6416478"
+         width="5.5191159"
+         id="rect3122"
+         style="fill:#fcffff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="-118.78946"
+         x="-654.06201"
+         height="3.7417734"
+         width="17.492792"
+         id="rect3124"
+         style="fill:#fcffff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
     <flowRoot
+       xml:space="preserve"
+       id="flowRoot3148"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25em;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458334,0,0,0.26458334,-12.635437,94.267578)"><flowRegion
+         id="flowRegion3150"><rect
+           id="rect3152"
+           width="355.19516"
+           height="66.059959"
+           x="-2569.5"
+           y="-527.46802" /></flowRegion><flowPara
+         id="flowPara3154"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.66666603px;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans';text-align:center;text-anchor:middle">F<flowSpan
+   style="font-size:18.66666603px;baseline-shift:sub"
+   id="flowSpan3156">13</flowSpan>-IAM reacted with BSA</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot3148-5"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25em;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
