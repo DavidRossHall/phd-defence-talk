@@ -297,7 +297,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 <br>
 <br>
 ## <p style="color:black;">David Hall, Kirsten Yeung, and Hui Peng </p>
-### Published in *ES&T*, 2022, 54, 23, 15191-15201
+### Published in [*ES&T*, 2022, 54, 23, 15191-15201](https://pubs.acs.org/doi/10.1021/acs.est.0c03144)
 ## 
 ]
 
@@ -323,11 +323,12 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 # Adverse health outcomes of chlorinated water are caused by halogenated disinfection byproducts 
 
 .center[
-![:scale 50%](images/03-DBP/dbps.png)
+![:scale 90%](images/03-DBP/reg_dbps.png)
 ]
+.footnoteRight[.my-bold[THMs] and .my-bold[HAA5] are <br>regulated in Canada]
 ---
 
-# Disinfection byproduct toxicity purportedly results from their reactivity towards, potentially critical, cystein residues 
+# HAM and HAA geno- and cyto-toxicity is purportedly due to their reactivity with, potentially critical, cystein residues 
 
 .pull-left[
 ![:scale 90%](images/03-DBP/dbp-cys-scheme.png)
@@ -360,7 +361,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 .hide-bg[
   .center[
-![:scale 100%](images/03-DBP/abpp_scheme.png)
+![:scale 90%](images/03-DBP/abpp_scheme.png)
   ]
 ]
 
@@ -375,6 +376,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ![:scale 70%](images/03-DBP/abpp-results.png)
 ]
 ]
+
 ---
 # Direct adduct monitoring directly validated many of the suspected targets of IAM and IAA
 
@@ -385,19 +387,26 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ]
 
 .footenoteLeft[**NEM** = N-ethylmaleimide]
+
 ---
 
-# Direct adduct monitoring provides binding-site information such as selective modification of Cys152 on GAPDH
+# mHAMs preferentially react with redox proteins accounting for their stronger Nrf2-mediated oxidative stress responses
 
+.hide-bg[
+.pull-left[
+![:scale 100%](images/03-DBP/gomf.png)
+]
+]
+.footnoteLeft[Enrichment analysis<br>from ABPP results]
 
-.center[
-![:scale 70%](images/01-intro/gapdh_cys152_fresh.png)
+.hide-bg[
+.pull-right[
+![:scale 100%](images/03-DBP/prot-inhib.png)
+]
 ]
 
-.footnoteRight[[P04406<br>AlphaFold](https://alphafold.ebi.ac.uk/entry/P04406)]
-.footenoteLeft[**IAM** = iodoacetamide<br>**IAA** = iodoacetic acid]
-<!-- remove the chromatogram elements of this figure and only talk about the active site-->
-<!-- come up with a better title -->
+.footnoteRight[**GAPDH** = Glyceraldehyde-3-phosphate dehydrogenase<br>**SOD1** = Superoxide dismutase [Cu-Zn]<br>[Pals et al. *ES&T* 2011](https://pubs.acs.org/doi/10.1021/es2008159)]
+
 ---
 
 
@@ -519,7 +528,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 ---
 
-# 8:2 FTAC only modifies GAPDH Cys247 and <br>not the catalytic Cys152 residue 
+# 8:2 FTAC only modifies GAPDH <mark style="background: #98FF98!important">Cys247</mark> and <br>not the catalytic <mark style="background: #ADFF2F!important">Cys152</mark> residue 
 
 .center[
 ![:scale 50%](gifs/gapdh_LG480.gif)

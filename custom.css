@@ -4,7 +4,7 @@
 .footnoteRight {
   position: absolute;
   bottom: 40px;
-  right: 20px;
+  right: 25px;
   font-size: 0.9em;
   text-align: right;
 }
@@ -22,7 +22,7 @@
 .footnoteLeft {
   position: absolute;
   bottom: 40px;
-  left: 20px;
+  left: 25px;
   font-size: 0.9em;
   text-align: left;
 }
