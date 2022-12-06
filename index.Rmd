@@ -390,6 +390,16 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 ---
 
+# Direct adduct monitoring provides binding-site information such as selective modification of Cys152 on GAPDH
+.center[
+![:scale 70%](images/01-intro/gapdh_cys152_fresh.png)
+]
+.footnoteRight[[P04406<br>AlphaFold](https://alphafold.ebi.ac.uk/entry/P04406)]
+.footenoteLeft[**IAM** = iodoacetamide<br>**IAA** = iodoacetic acid]
+
+
+---
+
 # mHAMs preferentially react with redox proteins accounting for their stronger Nrf2-mediated oxidative stress responses
 
 .hide-bg[
@@ -552,7 +562,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ---
 
 
-# Long-chain PFAS adducts promote protein<br>aggregation in *in vitro* crude cell lysate
+# 8:2 FTAC adducts promote protein aggregation<br>in *in vitro* crude cell lysate
 
 .hide-bg[
 .center[
@@ -609,21 +619,25 @@ background-size: cover
 .footnoteRight[[Patlewicz, et al.<br><i>EHP</i> 2019<br> ](https://ehp.niehs.nih.gov/doi/10.1289/EHP4555)]
 
 ---
-# Fish Embryo Toxicity testing  is a logistically simple<br>and sensitive measure of acute toxicity
 
-.center[
-.hide-bg[
-![:scale 75%](images/05-74PFAS/OECD_testing.png)
-]
+background-image: url("images/05-74PFAS/zebrafish_embryo_1hpf.jpg")
+background-size: contain
+background-color: #000000
+
+.right[
+# <span style="color: #000000">1 *hpf*  ...</span>
 ]
 
-.footnoteRight[[Test No. 236<br>OECD, 2013](https://doi.org/10.1787/9789264203709-en )]
+.footnoteRight[[IMP<br>Vienna<br>Biocenter<br>](https://phys.org/news/2021-03-egg-embryo-zebrafish-rna.html)]
 
 ---
 background-image: url("images/05-74PFAS/zebrafish_embryo.jpg")
 background-size: cover
 
-.footnoteLeft[[Cavanagh &<br>McCarthy, 2014](https://ki-images.mit.edu/2014/wellcome)]
+.right[
+# <span style="color: #F17300">120 *hpf*</span>
+]
+.footnoteRight[[Cavanagh &<br>McCarthy, 2014](https://ki-images.mit.edu/2014/wellcome)]
 
 ---
 
@@ -788,7 +802,7 @@ class: middle center
 <br>
 <br>
 .pull-right[
-![:scale 100%](images/04-fspe/fspe-toc.png)
+![:scale 90%](images/04-fspe/fspe-toc.png)
 ]
 
 ---
@@ -802,7 +816,7 @@ class: middle center
 
 - .my-bold[Project 2] led to the development an a chemical proteomics approach to study long-chain PFAS protein adducts
 
-- .my-bold[Project 3] analyzed the proteome responses of 74 PFAS to crease the largest toxicoproteomics dataset to date
+- .my-bold[Project 3] analyzed the proteome responses of 74 PFAS to create the largest toxicoproteomics dataset to date
 ]
  
 <br>
