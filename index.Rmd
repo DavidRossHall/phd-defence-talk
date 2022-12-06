@@ -282,7 +282,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 ---
 
-# During my PhD, I've developped proteomic methods to explore environmental chemical/protein interactions
+# During my PhD, I've developed proteomic methods to explore environmental chemical/protein interactions
 
 .center[
 ![:scale 80%](images/01-intro/overview.png)
@@ -356,7 +356,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 .footnoteLeft[**AA** = acetic acid<br>**AM** = acetamide]
 ---
 
-# I developped an activity-based protein profiling method to identify the protein targets of mHAAs and mHAMs
+# I developed an activity-based protein profiling method to identify the protein targets of mHAAs and mHAMs
 
 .hide-bg[
   .center[
@@ -543,14 +543,14 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ---
 
 
-# Long-chain PFAS adducts promote protein aggregation in<br>*in vitro* crude cell lysate
+# Long-chain PFAS adducts promote protein<br>aggregation in *in vitro* crude cell lysate
 
 .hide-bg[
 .center[
 ![:scale 45%](images/04-FSPE/protPrecip.png)
 ]
 ]
-.footnote[100 µM PFAS<br>n = 4 per sample<br>representative of 3 experiments<br>]
+.footnote[100 µM PFAS<br>n = 4 per sample]
 ---
 
 
@@ -677,23 +677,21 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ---
 class: middle center
 
-## ELS zebrafish exposures to .my-bold[74 PFAS at two concentrations]
+## ELS zebrafish exposures to .my-bold[74 PFAS at two concentrations].
 
 --
-# ↓
-## .my-bold[666 exposure samples] multiplexed into 222 LC-MS samples
+
+## .my-bold[666 exposure samples] multiplexed into 222 LC-MS samples.
 
 --
-#↓
-## 60 days of instrument time producing .my-bold[1217 GB of data]
+## 60 days of instrument time producing .my-bold[1217 GB of data].
 
 --
-#↓
-## Over .my-bold[10 million sequenced peptides]  
+## Over .my-bold[10 million sequenced peptides].  
 
 --
-#↓
-## Relative quantification of .my-bold[1969 proteins] across all exposures
+
+## Relative quantification of .my-bold[1969 proteins] across all exposures.
 
 ---
 
@@ -706,12 +704,18 @@ class: middle center
 ]
 ]
 
+.footnoteLeft[5 µM PFAS results<br> **PFAS 60** ommitted due to<br>100% mortality]
+
 ---
 
-# Largest dataset is available online, for other people....
+# Despite similarties in chemical structure and proteome responses, sulfonamides have divergent rates of mortality
 
-- aop checking stuff over
-- exploring differences in 24 and 16
+
+.center[
+![:scale 100%](images/05-74PFAS/sulfonamides.png)
+]
+
+.footnoteLeft[5 µM PFAS results<br> **PFAS 60** ommitted due to<br>100% mortality]
 
 ---
 
@@ -748,11 +752,55 @@ class: middle center
 
 ---
 
-# stuff to add
+# Concluding remarks for my PhD work
 
-- figure from review paper & publications since then 
-- alpha fold stuff w/ interspecies 
-- future work for shit. 
+.pull-left[
+<br>
+<br>
+- .my-bold[Project 1] demonstrated how chemical proteomics can elucidate mechanisms of toxicity
+]
+<br>
+<br>
+.pull-right[
+![:scale 100%](images/03-DBP/dbp-toc.png)
+]
+
+---
+
+# Concluding remarks for my PhD work
+
+.pull-left[
+<br>
+<br>
+- .my-bold[Project 1] demonstrated how chemical proteomics can elucidate mechanisms of toxicity
+
+- .my-bold[Project 2] led to the development an a chemical proteomics approach to study long-chain PFAS protein adducts
+]
+<br>
+<br>
+.pull-right[
+![:scale 100%](images/04-fspe/fspe-toc.png)
+]
+
+---
+
+# Concluding remarks for my PhD work
+
+.pull-left[
+<br>
+<br>
+- .my-bold[Project 1] demonstrated how chemical proteomics can elucidate mechanisms of toxicity
+
+- .my-bold[Project 2] led to the development an a chemical proteomics approach to study long-chain PFAS protein adducts
+
+- .my-bold[Project 3] analyzed the proteome responses of 74 PFAS to crease the largest toxicoproteomics dataset to date
+]
+ 
+<br>
+<br>
+.pull-right[
+![:scale 100%](images/05-74PFAS/74pfas-toc.png)
+]
 
 ---
 
