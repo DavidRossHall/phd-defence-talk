@@ -86,10 +86,12 @@ xaringanExtra::use_tile_view()
 <br>
 <br>
 ## **David Hall**
-## PhD Candidate
+## Final Oral Exam
 ## Dec. 9, 2022
 ## 
 ]
+
+.footnoteLeft[Slides available here: .my-bold[[shorturl.at/hiOV7](shorturl.at/hiOV7)]]
 
 <br>
 <br>
@@ -143,7 +145,7 @@ background-image: url(images/01-intro/rabbits.jpg)
 background-size: contain
 background-color: #000000
 
-.footnoteRight[[BBC UK <br>(1999)](https://www.bbc.co.uk/sounds/play/p00545f8)]
+.footnoteRight[[BBC UK<br>(1999)](https://www.bbc.co.uk/sounds/play/p00545f8)]
 
 ???
 
@@ -158,7 +160,7 @@ background-image: url(images/01-intro/tox-testing.webp)
 background-size: contain
 background-color: #000000
 
-.footnoteRight[[Caven<br>Images <br>(2021)](https://www.nature.com/articles/d43978-021-00009-6)]
+.footnoteRight[[Caven<br>Images<br>(2021)](https://www.nature.com/articles/d43978-021-00009-6)]
 
 ???
 - Modern assessments still employ animal testing
@@ -168,11 +170,11 @@ background-color: #000000
 
 class: center, middle
 
-# Traditional animal-based toxicity/risk assessments<br>faces **two major problems** 
+# Traditional animal-based toxicity/risk assessments<br>faces <u>two major obstacles</u> 
 
 ---
 
-# Problem 1: the throughput of animal-based testing cannot cope with the number of chemicals in use 
+# <u>Problem 1</u>: The throughput of animal-based testing cannot cope with the number of chemicals in use 
 
 .center[
   .hide-bg[
@@ -193,7 +195,7 @@ knitr::include_graphics("images/01-intro/want-est-2020.jpeg")
 
 ---
 
-# Problem 2: single species testing does not reflect<br>interspecies variation in toxic response(s) 
+# <u>Problem 2</u>: Single species testing does not reflect<br>interspecies variation in toxic response(s) 
 
 .hide-bg[
 .center[
@@ -292,12 +294,12 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ---
 
 
-# *Project 1*: Profilling Proteome  Thiol Reactivity of Monohaloacetic Acids and Monohaloacetamides 
+# .my-bold[Project 1]: Profilling Proteome  Thiol Reactivity of Monohaloacetic Acids and Monohaloacetamides 
 .left-column[
 <br>
 <br>
 ## <p style="color:black;">David Hall, Kirsten Yeung, and Hui Peng </p>
-### Published in [*ES&T*, 2022, 54, 23, 15191-15201](https://pubs.acs.org/doi/10.1021/acs.est.0c03144)
+### Published in [*ES&T*, 2020, 54, 23, 15191-15201](https://pubs.acs.org/doi/10.1021/acs.est.0c03144)
 ## 
 ]
 
@@ -325,7 +327,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 .center[
 ![:scale 90%](images/03-DBP/reg_dbps.png)
 ]
-.footnoteRight[.my-bold[THMs] and .my-bold[HAA5] are <br>regulated in Canada]
+.footnoteRight[.my-bold[[THMs](https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidelines-canadian-drinking-water-quality-trihalomethanes.html)] and .my-bold[[HAA5](https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidelines-canadian-drinking-water-quality-guideline-technical-document-haloacetic-acids.html)] are <br>regulated in Canada]
 ---
 
 # HAM and HAA geno- and cyto-toxicity is purportedly due to their reactivity with, potentially critical, cystein residues 
@@ -420,7 +422,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ---
 
 
-# *Project 1* Conclusions
+# .my-bold[Project 1]: Conclusions
 
 <!-- come up with cleaner conclusions --> 
 
@@ -443,7 +445,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 ---
 
-# *Project 2*: Development of Fluorous Solid Phase for the Enrichement of Long-Chain PFAS modified peptides
+# .my-bold[Project 2]: Development of Fluorous Solid Phase Extraction for the Enrichement of Long-Chain PFAS modified peptides
 
 .left-column[
 <br>
@@ -526,7 +528,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ]
 ---
 
-# FSPE enrichement enabled the identification of over 107 proteins modified by 8:2 FTAC
+# FSPE enrichement helped to identify<br>over 107 proteins modified by 8:2 FTAC
 
 .hide-bg[
 .center[
@@ -573,7 +575,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ---
 
 
-# *Project 2* Conclusions
+# .my-bold[Project 2]: Conclusions
 
 .pull-left[
 
@@ -592,7 +594,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ]
 ---
 
-# *Project 3*: Toxicoproteomics Atlas of Per- and Polyfluoroalkyl Substances in Early-Life Stages Zebrafish (*Danio rerio*)
+# .my-bold[Project 3]: Toxicoproteomics Atlas of Per- and Polyfluoroalkyl Substances in Early-Life Stages Zebrafish (*Danio rerio*)
 
 .left-column[
 <br>
@@ -616,16 +618,16 @@ background-size: cover
 
 # PFAS are a structurally diverse class of compounds
 
-.footnoteRight[[Patlewicz, et al.<br><i>EHP</i> 2019<br> ](https://ehp.niehs.nih.gov/doi/10.1289/EHP4555)]
+.footnoteRight[[Patlewicz, et al.<br><i>EHP</i> 2019<br><br> ](https://ehp.niehs.nih.gov/doi/10.1289/EHP4555)]
 
 ---
 
-background-image: url("images/05-74PFAS/zebrafish_embryo_1hpf.jpg")
+background-image: url("images/05-74PFAS/zebrafish_embryo_1hpf.png")
 background-size: contain
-background-color: #000000
+background-color: #d3e7dc
 
 .right[
-# <span style="color: #000000">1 *hpf*  ...</span>
+# <span style="color: #000000">1 *hpf*</span>
 ]
 
 .footnoteRight[[IMP<br>Vienna<br>Biocenter<br>](https://phys.org/news/2021-03-egg-embryo-zebrafish-rna.html)]
@@ -662,17 +664,6 @@ background-size: cover
 ]
 
 .footnoteRight[[DIA-NN software<br> created by V. Demichev,<br>*Nature Methods* 2020](https://www.nature.com/articles/s41592-019-0638-x)]
----
-
-# Recall that the number of IDed proteins is proportional to IDed peptides, which is dependent on LC-MS acquisition
-
-.hide-bg[
-  .center[
-```{r, out.width="90%", echo = FALSE}
-knitr::include_graphics("images/01-intro/proteomics.png")
-```
-  ]
-]
 
 ---
 
@@ -743,14 +734,14 @@ class: middle center
 ---
 
 
-# Conlusions of 7 PFAS Toxicoproteomics atlast
+# .my-bold[Project 3]: Conclusions
 
 .pull-left[
 
 
-1. DIA proteomics + ELS zebrafish exposure is a high-throughput approach to toxicity screening
+1. DIA proteomics + ELS zebrafish exposure is adaptable to high-throughput screening
 
-1. Toxicoproteomic response of PFAS exposure belies classification
+1. Toxicoproteomic response of PFAS exposure typically belies classification
 
 1. Proteomics reveals insights into mechanisms not observable until many days/weeks post hatching
 
@@ -802,7 +793,7 @@ class: middle center
 <br>
 <br>
 .pull-right[
-![:scale 90%](images/04-fspe/fspe-toc.png)
+![:scale 100%](images/04-FSPE/fspe-toc.png)
 ]
 
 ---
