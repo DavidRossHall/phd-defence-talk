@@ -91,7 +91,7 @@ xaringanExtra::use_tile_view()
 ## 
 ]
 
-.footnoteLeft[Slides available here: .my-bold[[shorturl.at/hiOV7](shorturl.at/hiOV7)]]
+.footnoteLeft[Slides available here: .my-bold[[davidrosshall.github.io/phd-defence-talk](https://davidrosshall.github.io/phd-defence-talk/#1)]]
 
 <br>
 <br>
@@ -815,6 +815,19 @@ class: middle center
 .pull-right[
 ![:scale 100%](images/05-74PFAS/74pfas-toc.png)
 ]
+
+---
+
+# Future project: ABPP for diffrent compounds
+
+- 6ppd quninone
+
+---
+
+# looking into protein aggregationa effects
+---
+
+# development of HTS proteomics sscreening
 
 ---
 
