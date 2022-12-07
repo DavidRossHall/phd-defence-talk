@@ -858,8 +858,14 @@ background-color: #000000
 
 ---
 
-# Questions?
+# Chemical Proteomics Methods for Elucidating the <br>Physical Protein Targets of Environmental Contaminants
 
+.left-column[
+<br>
+<br>
+## Questions?
+
+]
 <br>
 <br>
 .right[
