@@ -40,9 +40,9 @@
      showgrid="false"
      width="211mm"
      units="in"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="-813.1728"
-     inkscape:cy="-223.44574"
+     inkscape:zoom="1"
+     inkscape:cx="-1564"
+     inkscape:cy="-557"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="2552"
@@ -1131,6 +1131,13 @@
        y="0" />
     <pattern
        id="EMFhbasepattern-99"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-13"
        patternUnits="userSpaceOnUse"
        width="6"
        height="6"
@@ -8808,9 +8815,9 @@
          style="font-size:8px;line-height:1.25;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans';white-space:pre;shape-inside:url(#rect9430-2);display:inline;fill:#ff0000;fill-opacity:1"><tspan
            x="-423.35742"
            y="-9.0451562"
-           id="tspan47908"><tspan
+           id="tspan5740"><tspan
              style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
-             id="tspan47906">O</tspan></tspan></text>
+             id="tspan5738">O</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458334,0,0,0.26458334,-2.1236614,-0.70271343)"
@@ -8818,9 +8825,9 @@
          style="font-size:8px;line-height:1.25;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans';white-space:pre;shape-inside:url(#rect9430);display:inline"><tspan
            x="-423.35742"
            y="-9.0451562"
-           id="tspan47912"><tspan
+           id="tspan5744"><tspan
              style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#d1ac00"
-             id="tspan47910">S</tspan></tspan></text>
+             id="tspan5742">S</tspan></tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:700;font-size:2.10013px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -10183,9 +10190,9 @@
          inkscape:export-ydpi="200"><tspan
            x="227.94141"
            y="180.29015"
-           id="tspan47916"><tspan
+           id="tspan5748"><tspan
              style="font-weight:normal;-inkscape-font-specification:sans-serif"
-             id="tspan47914">8:2 FTAC</tspan></tspan></text>
+             id="tspan5746">8:2 FTAC</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458334,0,0,0.26458334,-11.133536,-35.073066)"
@@ -10196,7 +10203,7 @@
          inkscape:export-ydpi="200"><tspan
            x="227.94141"
            y="180.29015"
-           id="tspan47918">Cys Mod.</tspan></text>
+           id="tspan5750">Cys Mod.</tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458334,0,0,0.26458334,-11.133536,-26.792676)"
@@ -10207,7 +10214,7 @@
          inkscape:export-ydpi="200"><tspan
            x="227.94141"
            y="180.29015"
-           id="tspan47920">Cys Type</tspan></text>
+           id="tspan5752">Cys Type</tspan></text>
       <path
          sodipodi:type="star"
          style="fill:#a3a500;fill-opacity:1;stroke:#000000;stroke-width:0.96;stroke-linecap:round;stroke-opacity:1"
@@ -10238,9 +10245,9 @@
          inkscape:export-ydpi="200"><tspan
            x="227.94141"
            y="180.29015"
-           id="tspan47924"><tspan
+           id="tspan5756"><tspan
              style="font-weight:normal;-inkscape-font-specification:sans-serif"
-             id="tspan47922">active site</tspan></tspan></text>
+             id="tspan5754">active site</tspan></tspan></text>
       <path
          sodipodi:type="star"
          style="fill:#00bf7d;fill-opacity:1;stroke:#000000;stroke-width:0.96;stroke-linecap:round;stroke-opacity:1"
@@ -10271,9 +10278,9 @@
          inkscape:export-ydpi="200"><tspan
            x="227.94141"
            y="180.29015"
-           id="tspan47928"><tspan
+           id="tspan5760"><tspan
              style="font-weight:normal;-inkscape-font-specification:sans-serif"
-             id="tspan47926">binding site</tspan></tspan></text>
+             id="tspan5758">binding site</tspan></tspan></text>
       <path
          sodipodi:type="star"
          style="fill:#00b0f6;fill-opacity:1;stroke:#000000;stroke-width:0.96;stroke-linecap:round;stroke-opacity:1"
@@ -10304,9 +10311,9 @@
          inkscape:export-ydpi="200"><tspan
            x="227.94141"
            y="180.29015"
-           id="tspan47932"><tspan
+           id="tspan5764"><tspan
              style="font-weight:normal;-inkscape-font-specification:sans-serif"
-             id="tspan47930">metal binding</tspan></tspan></text>
+             id="tspan5762">metal binding</tspan></tspan></text>
       <path
          sodipodi:type="star"
          style="fill:#e76bf3;fill-opacity:1;stroke:#000000;stroke-width:0.96;stroke-linecap:round;stroke-opacity:1"
@@ -10337,9 +10344,9 @@
          inkscape:export-ydpi="200"><tspan
            x="227.94141"
            y="180.29015"
-           id="tspan47936"><tspan
+           id="tspan5768"><tspan
              style="font-weight:normal;-inkscape-font-specification:sans-serif"
-             id="tspan47934">other site</tspan></tspan></text>
+             id="tspan5766">other site</tspan></tspan></text>
     </g>
     <text
        xml:space="preserve"
@@ -10348,9 +10355,9 @@
        style="font-size:18.6667px;line-height:1.25;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans';white-space:pre;shape-inside:url(#rect4266);display:inline"><tspan
          x="-25.875"
          y="1156.8934"
-         id="tspan47940"><tspan
+         id="tspan5772"><tspan
            dx="0 10.845342"
-           id="tspan47938">SH</tspan></tspan></text>
+           id="tspan5770">SH</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458334,0,0,0.26458334,-11.884024,6.9774685)"
@@ -10358,9 +10365,9 @@
        style="font-size:8px;line-height:1.25;font-family:'IBM Plex Sans';-inkscape-font-specification:'IBM Plex Sans';white-space:pre;shape-inside:url(#rect4392);display:inline;fill:#d1ac00;fill-opacity:1"><tspan
          x="-19.25"
          y="1120.365"
-         id="tspan47944"><tspan
+         id="tspan5776"><tspan
            style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
-           id="tspan47942">SH</tspan></tspan></text>
+           id="tspan5774">SH</tspan></tspan></text>
     <image
        y="135.47513"
        x="-132.00063"
@@ -12292,6 +12299,105 @@
          style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.264583"
          d="m -438.13689,98.395294 c 0,0 -1.72536,0.08216 -1.72536,0.08216 0,0 0.24648,-0.180752 0.29578,-0.361504 0.0329,-0.180752 -0.11502,-0.460096 -0.11502,-0.460096 0,0 1.5446,0.73944 1.5446,0.73944 0,0 0,0 0,0 z"
          id="path9408" />
+    </g>
+    <g
+       id="g3137"
+       inkscape:export-filename="nonenal.png"
+       inkscape:export-xdpi="200"
+       inkscape:export-ydpi="200">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:400;font-size:2.10013px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-494.62714"
+         y="-211.28075"
+         id="text2932"><tspan
+           sodipodi:role="line"
+           x="-494.62714"
+           y="-211.28075"
+           id="tspan2930"
+           style="stroke-width:0.264583"><tspan
+             dx="0"
+             dy="0"
+             style="font-style:normal;font-variant:normal;font-weight:400;font-size:2.10013px;font-family:Arial;fill:#000000;stroke-width:0.264583"
+             id="tspan2928">O</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:400;font-size:2.10013px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-507.50983"
+         y="-214.69861"
+         id="text2938"><tspan
+           sodipodi:role="line"
+           x="-507.50983"
+           y="-214.69861"
+           id="tspan2936"
+           style="stroke-width:0.264583"><tspan
+             dx="0"
+             dy="0"
+             style="font-style:normal;font-variant:normal;font-weight:400;font-size:2.10013px;font-family:Arial;fill:#000000;stroke-width:0.264583"
+             id="tspan2934">OH</tspan></tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.213616px;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+         d="m -523.07093,-209.80187 3.2864,-1.88968"
+         id="path2940" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.213616px;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+         d="m -519.78453,-211.69155 3.26997,1.88968"
+         id="path2942" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.213616px;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+         d="m -516.51456,-209.80187 3.2864,-1.88968"
+         id="path2944" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.213616px;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+         d="m -513.22816,-211.69155 3.26997,1.88968"
+         id="path2946" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.213616px;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+         d="m -509.95819,-209.80187 3.2864,-1.88968"
+         id="path2948" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.213616px;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+         d="m -506.67179,-211.69155 3.26997,1.88968"
+         id="path2950" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.213616px;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+         d="m -503.40182,-209.80187 3.2864,-1.88968"
+         id="path2952" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.213616px;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+         d="m -503.40182,-210.59061 2.94133,-1.6925"
+         id="path2954" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.213616px;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+         d="m -500.11542,-211.69155 3.26997,1.88968"
+         id="path2956" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.213616px;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+         d="m -496.84545,-209.80187 2.23475,-1.2817"
+         id="path2958" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.213616px;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+         d="m -496.84545,-210.59061 1.88968,-1.08451"
+         id="path2960" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.213616px;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+         d="m -506.67179,-211.69155 v -2.5634"
+         id="path2962" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:700;font-size:2.10013px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-518.28925"
+         y="-206.28543"
+         id="text2968"><tspan
+           sodipodi:role="line"
+           x="-518.28925"
+           y="-206.28543"
+           id="tspan2966"
+           style="stroke-width:0.264583"><tspan
+             dx="0"
+             dy="0"
+             style="font-style:normal;font-variant:normal;font-weight:700;font-size:2.10013px;font-family:Arial;fill:#000000;stroke-width:0.264583"
+             id="tspan2964">4-hydroxynon-2-enal</tspan></tspan></text>
     </g>
   </g>
 </svg>

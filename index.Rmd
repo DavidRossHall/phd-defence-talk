@@ -394,7 +394,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 # Direct adduct monitoring provides binding-site information such as selective modification of Cys152 on GAPDH
 .center[
-![:scale 70%](images/01-intro/gapdh_cys152_fresh.png)
+![:scale 70%](images/03-DBP/gapdh_fresh.png)
 ]
 .footnoteRight[[P04406<br>AlphaFold](https://alphafold.ebi.ac.uk/entry/P04406)]
 .footenoteLeft[**IAM** = iodoacetamide<br>**IAA** = iodoacetic acid]
@@ -487,6 +487,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ]
 ]
 
+.footnoteRight[in 10 mM NaH<sub>2</sub>PO<sub>4</sub><br>at pH 7.5, 20 °C]
 ---
 
 # Low-intensity and overlapping retention times of 8:2 FTAC modified peptides hampers detection
@@ -551,6 +552,8 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ???
 
 - Modification of Cys247 (& GAPDH inactivation) by 4-Hydroxy-2-nonenal
+
+![:scale 40%](images/04-FSPE/nonenal.png)
 
 ---
 
