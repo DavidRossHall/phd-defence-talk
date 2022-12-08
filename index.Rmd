@@ -871,3 +871,27 @@ background-color: #000000
 .right[
 ![:scale 60%](images/01-intro/thesis-toc.png)
 ]
+
+---
+ 
+# SI: Entries in the 74 PFAS chemical library
+
+```{r}
+library(tidyverse)
+library(DT)
+
+pfas_table <- read_csv(file = "data/pfas_imgs.csv") 
+
+DT::datatable(pfas_table,
+                    escape = FALSE,
+                    rownames= FALSE,
+                    options = list(
+                      scrollY = '400px',
+                      paging = FALSE,
+                      sScrollX = "100%",
+                      scrollCollapse = TRUE
+                                       )) 
+```
+ 
+ 
+
