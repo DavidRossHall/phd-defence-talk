@@ -81,20 +81,31 @@ p <- ggplot(data = tox,
         text = element_text(size = 16) )
 
 p2 <- p +
+  # Tern and waterfowl annotation
   geom_curve(
   aes(x =  4000, y = 19, xend = 5000, yend = 5),
   colour = "black",
   curvature = -0.15,
   arrow = arrow(length = unit(0.03, "npc"))
 ) +
-  annotate("text", x = 4100, y = 25.5, hjust = 1, label = "Herring gull\n& Duck") +
+  annotate("text", x = 4100, y = 25.5, hjust = 1, label = "herring gull\n& duck") +
+  
+  # Chicken annotation
+  geom_curve(
+  aes(x =  50, y = 83, xend = 24, yend = 98),
+  colour = "black",
+  curvature = 0.2,
+  arrow = arrow(length = unit(0.03, "npc"))
+) +
+  annotate("text", x = 90, y = 80, hjust = 1, label = "chicken") +
+  # Adjusting legend beaks
   scale_colour_discrete(breaks=c("chicken", "pheasant", "turkey", "duck", "herring gull"))
 
 p2
 ```
 
 ```{r, eval = FALSE}
-ggsave(filename = "images/01-intro/pcb77_tox.png",
+ggsave(filename = "images/01-intro/pcb77_toxV2.png",
        plot = p2, 
        units = "in", 
        height = 4, 
