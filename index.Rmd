@@ -865,13 +865,15 @@ background-color: #000000
 <br>
 ## Questions?
 
+
+
 ]
 <br>
 <br>
 .right[
 ![:scale 60%](images/01-intro/thesis-toc.png)
 ]
-
+.footnoteLeft[Slides available here: .my-bold[[davidrosshall.github.io/phd-defence-talk](https://davidrosshall.github.io/phd-defence-talk/#1)]]
 ---
  
 # SI: Entries in the 74 PFAS chemical library
