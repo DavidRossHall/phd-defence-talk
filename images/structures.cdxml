@@ -20,7 +20,7 @@
  ShowTerminalCarbonLabels="no"
  ShowNonTerminalCarbonLabels="no"
  HideImplicitHydrogens="no"
- Magnification="666"
+ Magnification="500"
  LabelFont="3"
  LabelSize="6"
  LabelFace="96"
@@ -89,7 +89,7 @@
 </colortable><fonttable>
 <font id="3" charset="iso-8859-1" name="Arial"/>
 </fonttable><page
- id="2210"
+ id="2271"
  BoundingBox="0 0 1440 1440"
  Width="1440"
  Height="1440"
@@ -102,11 +102,11 @@
  DrawingSpace="poster"
 ><group
  id="589"
- BoundingBox="288.88 241.72 298 259.87"
+ BoundingBox="289 241.72 298.01 259.87"
  Z="1873"
 ><graphic
  id="1845"
- SupersededBy="2211"
+ SupersededBy="2272"
  BoundingBox="290.88 254.88 290.88 241.72"
  Z="1870"
  GraphicType="Line"
@@ -114,15 +114,15 @@
  HeadSize="1000"
 /><graphic
  id="1846"
- SupersededBy="2212"
+ SupersededBy="2273"
  BoundingBox="296.50 259.87 296.50 246.72"
  Z="1872"
  GraphicType="Line"
  ArrowType="FullHead"
  HeadSize="1000"
 /><arrow
- id="2211"
- BoundingBox="288.88 241.72 292.38 254.88"
+ id="2272"
+ BoundingBox="289 241.72 292.39 254.88"
  Z="1870"
  FillType="None"
  ArrowheadHead="Full"
@@ -136,8 +136,8 @@
  MajorAxisEnd3D="424.81 330.32 0"
  MinorAxisEnd3D="403.06 343.48 0"
 /><arrow
- id="2212"
- BoundingBox="294.50 246.72 298 259.87"
+ id="2273"
+ BoundingBox="294.62 246.72 298.01 259.87"
  Z="1872"
  FillType="None"
  ArrowheadHead="Full"
@@ -156,7 +156,7 @@
  Z="1883"
 ><group
  id="624"
- BoundingBox="243.56 191.43 283.71 215.81"
+ BoundingBox="243.68 191.43 283.71 215.81"
  Z="1878"
 ><fragment
  id="606"
@@ -177,7 +177,7 @@
  LabelAlignment="Left"
 ><s font="3" size="6" color="0" face="96">HF</s></t></n></fragment><graphic
  id="1847"
- SupersededBy="2213"
+ SupersededBy="2274"
  BoundingBox="258.24 215.81 258.24 191.43"
  Z="1871"
  GraphicType="Line"
@@ -185,7 +185,7 @@
  HeadSize="1000"
 /><graphic
  id="1848"
- SupersededBy="2214"
+ SupersededBy="2275"
  BoundingBox="258.24 203.62 244.36 203.62"
  Z="1874"
  GraphicType="Arc"
@@ -194,7 +194,7 @@
  AngularSize="-90"
 /><graphic
  id="1849"
- SupersededBy="2215"
+ SupersededBy="2276"
  BoundingBox="274.25 211.61 270.87 199"
  Z="1875"
  GraphicType="Arc"
@@ -202,8 +202,8 @@
  HeadSize="1000"
  AngularSize="90"
 /><arrow
- id="2213"
- BoundingBox="256.24 191.43 259.74 215.81"
+ id="2274"
+ BoundingBox="256.36 191.43 259.75 215.81"
  Z="1871"
  FillType="None"
  ArrowheadHead="Full"
@@ -217,8 +217,8 @@
  MajorAxisEnd3D="395.55 374.81 0"
  MinorAxisEnd3D="371.17 399.18 0"
 /><arrow
- id="2214"
- BoundingBox="243.56 191.77 259.04 204.42"
+ id="2275"
+ BoundingBox="243.68 191.89 258.91 204.29"
  Z="1874"
  FillType="None"
  ArrowheadHead="Full"
@@ -233,8 +233,8 @@
  MajorAxisEnd3D="258.24 203.62 0"
  MinorAxisEnd3D="244.36 214.67 0"
 /><arrow
- id="2215"
- BoundingBox="257.46 201.58 274.25 213.29"
+ id="2276"
+ BoundingBox="257.58 201.71 274.25 213.30"
  Z="1875"
  FillType="None"
  ArrowheadHead="Full"
@@ -261,7 +261,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2216"
+ id="2277"
 ><n
  id="1435"
  p="207.40 188.78"
@@ -385,11 +385,11 @@
  Z="2103"
 ><group
  id="643"
- BoundingBox="444.88 145.72 454 163.87"
+ BoundingBox="445 145.72 454.01 163.87"
  Z="2089"
 ><graphic
  id="1854"
- SupersededBy="2220"
+ SupersededBy="2281"
  BoundingBox="446.88 158.88 446.88 145.72"
  Z="2086"
  GraphicType="Line"
@@ -397,15 +397,15 @@
  HeadSize="1000"
 /><graphic
  id="1855"
- SupersededBy="2221"
+ SupersededBy="2282"
  BoundingBox="452.50 163.87 452.50 150.72"
  Z="2088"
  GraphicType="Line"
  ArrowType="FullHead"
  HeadSize="1000"
 /><arrow
- id="2220"
- BoundingBox="444.88 145.72 448.38 158.88"
+ id="2281"
+ BoundingBox="445 145.72 448.39 158.88"
  Z="2086"
  FillType="None"
  ArrowheadHead="Full"
@@ -419,8 +419,8 @@
  MajorAxisEnd3D="580.81 234.32 0"
  MinorAxisEnd3D="559.06 247.48 0"
 /><arrow
- id="2221"
- BoundingBox="450.50 150.72 454 163.87"
+ id="2282"
+ BoundingBox="450.62 150.72 454.01 163.87"
  Z="2088"
  FillType="None"
  ArrowheadHead="Full"
@@ -439,7 +439,7 @@
  Z="2102"
 ><group
  id="735"
- BoundingBox="432.56 220.43 472.71 244.81"
+ BoundingBox="432.68 220.43 472.71 244.81"
  Z="2096"
 ><fragment
  id="736"
@@ -460,7 +460,7 @@
  LabelAlignment="Left"
 ><s font="3" size="6" color="0" face="96">HF</s></t></n></fragment><graphic
  id="1856"
- SupersededBy="2222"
+ SupersededBy="2283"
  BoundingBox="447.24 244.81 447.24 220.43"
  Z="2087"
  GraphicType="Line"
@@ -468,7 +468,7 @@
  HeadSize="1000"
 /><graphic
  id="1857"
- SupersededBy="2223"
+ SupersededBy="2284"
  BoundingBox="447.24 232.62 433.36 232.62"
  Z="2092"
  GraphicType="Arc"
@@ -477,7 +477,7 @@
  AngularSize="-90"
 /><graphic
  id="1858"
- SupersededBy="2224"
+ SupersededBy="2285"
  BoundingBox="463.25 240.61 459.87 228"
  Z="2093"
  GraphicType="Arc"
@@ -485,8 +485,8 @@
  HeadSize="1000"
  AngularSize="90"
 /><arrow
- id="2222"
- BoundingBox="445.24 220.43 448.74 244.81"
+ id="2283"
+ BoundingBox="445.36 220.43 448.75 244.81"
  Z="2087"
  FillType="None"
  ArrowheadHead="Full"
@@ -500,8 +500,8 @@
  MajorAxisEnd3D="584.55 403.81 0"
  MinorAxisEnd3D="560.17 428.18 0"
 /><arrow
- id="2223"
- BoundingBox="432.56 220.77 448.04 233.42"
+ id="2284"
+ BoundingBox="432.68 220.89 447.91 233.29"
  Z="2092"
  FillType="None"
  ArrowheadHead="Full"
@@ -516,8 +516,8 @@
  MajorAxisEnd3D="447.24 232.62 0"
  MinorAxisEnd3D="433.36 243.67 0"
 /><arrow
- id="2224"
- BoundingBox="446.46 230.58 463.25 242.29"
+ id="2285"
+ BoundingBox="446.58 230.71 463.25 242.30"
  Z="2093"
  FillType="None"
  ArrowheadHead="Full"
@@ -544,7 +544,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2225"
+ id="2286"
 ><n
  id="714"
  p="396.40 217.78"
@@ -1132,7 +1132,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2217"
+ id="2278"
 ><n
  id="646"
  p="410.34 249.89"
@@ -1558,7 +1558,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2218"
+ id="2279"
 ><n
  id="820"
  p="411.47 334.01"
@@ -1916,7 +1916,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2219"
+ id="2280"
 ><n
  id="694"
  p="423.04 246.38"
@@ -2087,7 +2087,7 @@
  LineHeight="auto"
 ><s font="3" size="6" color="0" face="97">8:2 FTUAL Cystein adduct</s></t></group><group
  id="1089"
- BoundingBox="34.63 328.35 357.66 453.56"
+ BoundingBox="34.63 328.29 357.66 453.56"
  Z="2182"
 ><group
  id="1075"
@@ -2557,7 +2557,7 @@
  LabelAlignment="Left"
 ><s font="3" size="6" color="0" face="96">R =</s></t></n></fragment></group><group
  id="1088"
- BoundingBox="34.63 328.35 357.66 377.16"
+ BoundingBox="34.63 328.29 357.66 377.16"
  Z="2181"
 ><group
  id="1076"
@@ -2605,7 +2605,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2227"
+ id="2288"
 ><n
  id="523"
  p="286.73 414.86"
@@ -3483,7 +3483,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2226"
+ id="2287"
 ><n
  id="1459"
  p="179.78 417.29"
@@ -3939,7 +3939,7 @@
  LineHeight="auto"
 ><s font="3" size="6" color="0" face="97">8:2 FTUAL thiol adduct</s></t><graphic
  id="1862"
- SupersededBy="2228"
+ SupersededBy="2289"
  BoundingBox="174.41 347.22 152.61 347.22"
  Z="2109"
  GraphicType="Line"
@@ -3947,7 +3947,7 @@
  HeadSize="1000"
 /><graphic
  id="1863"
- SupersededBy="2229"
+ SupersededBy="2290"
  BoundingBox="279.65 350.60 257.85 350.60"
  Z="2110"
  GraphicType="Line"
@@ -3955,15 +3955,15 @@
  HeadSize="1000"
 /><graphic
  id="1864"
- SupersededBy="2230"
+ SupersededBy="2291"
  BoundingBox="178.53 351.44 156.73 351.44"
  Z="2114"
  GraphicType="Line"
  ArrowType="FullHead"
  HeadSize="1000"
 /><arrow
- id="2228"
- BoundingBox="152.61 345.21 174.41 348.72"
+ id="2289"
+ BoundingBox="152.61 345.34 174.41 348.73"
  Z="2109"
  FillType="None"
  ArrowheadHead="Full"
@@ -3977,8 +3977,8 @@
  MajorAxisEnd3D="283.44 521.41 0"
  MinorAxisEnd3D="261.64 543.21 0"
 /><arrow
- id="2229"
- BoundingBox="257.85 348.60 279.65 352.10"
+ id="2290"
+ BoundingBox="257.85 348.72 279.65 352.11"
  Z="2110"
  FillType="None"
  ArrowheadHead="Full"
@@ -3992,8 +3992,8 @@
  MajorAxisEnd3D="437.58 523.05 0"
  MinorAxisEnd3D="415.78 544.85 0"
 /><arrow
- id="2230"
- BoundingBox="156.73 349.43 178.53 352.94"
+ id="2291"
+ BoundingBox="156.73 349.56 178.53 352.95"
  Z="2114"
  FillType="None"
  ArrowheadHead="Full"
@@ -4008,7 +4008,7 @@
  MinorAxisEnd3D="265.77 547.43 0"
 /></group><graphic
  id="1865"
- SupersededBy="2231"
+ SupersededBy="2292"
  BoundingBox="182.28 355.19 160.48 355.19"
  Z="2179"
  GraphicType="Line"
@@ -4016,7 +4016,7 @@
  HeadSize="1000"
 /><graphic
  id="1866"
- SupersededBy="2232"
+ SupersededBy="2293"
  BoundingBox="215.30 349.27 233.85 339.85"
  Z="2180"
  GraphicType="Arc"
@@ -4024,8 +4024,8 @@
  HeadSize="1000"
  AngularSize="270"
 /><arrow
- id="2231"
- BoundingBox="160.48 353.18 182.28 356.69"
+ id="2292"
+ BoundingBox="160.48 353.31 182.28 356.70"
  Z="2179"
  FillType="None"
  ArrowheadHead="Full"
@@ -4039,8 +4039,8 @@
  MajorAxisEnd3D="291.32 529.38 0"
  MinorAxisEnd3D="269.52 551.18 0"
 /><arrow
- id="2232"
- BoundingBox="195.96 328.35 270.88 349.53"
+ id="2293"
+ BoundingBox="196.08 328.29 270.75 349.53"
  Z="2180"
  FillType="None"
  ArrowheadHead="Full"
@@ -4056,11 +4056,11 @@
  MinorAxisEnd3D="233.85 350.73 0"
 /></group></group><group
  id="1259"
- BoundingBox="165.51 474.52 309.41 613.87"
+ BoundingBox="165.50 474.52 309.41 613.87"
  Z="2277"
 ><group
  id="1244"
- BoundingBox="223.67 538.50 244.93 561.90"
+ BoundingBox="223.67 538.50 244.94 561.90"
  Z="2268"
 ><fragment
  id="1240"
@@ -4074,7 +4074,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2233"
+ id="2294"
 ><n
  id="1512"
  p="220.87 548.45"
@@ -4111,15 +4111,15 @@
  LabelAlignment="Left"
 ><s font="3" size="6" color="0" face="97">GSH</s></t></n></fragment><graphic
  id="1868"
- SupersededBy="2234"
+ SupersededBy="2295"
  BoundingBox="243.43 561.90 243.43 538.50"
  Z="2247"
  GraphicType="Line"
  ArrowType="FullHead"
  HeadSize="1000"
 /><arrow
- id="2234"
- BoundingBox="241.43 538.50 244.93 561.90"
+ id="2295"
+ BoundingBox="241.55 538.50 244.94 561.90"
  Z="2247"
  FillType="None"
  ArrowheadHead="Full"
@@ -4702,7 +4702,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2235"
+ id="2296"
 ><n
  id="1518"
  p="267.08 590.77"
@@ -5138,7 +5138,7 @@
  CurvePoints="230.28 543.38 230.28 543.38 230.28 543.38 229.91 526.88 197.66 527.62 165.41 528.38 159.41 501.38 172.91 492 186.41 482.62"
 /></group><group
  id="1334"
- BoundingBox="673.09 61.96 814.19 162.81"
+ BoundingBox="673.09 62.09 814.19 162.81"
  Z="2326"
 ><group
  id="1274"
@@ -5471,7 +5471,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2236"
+ id="2297"
 ><n
  id="1571"
  p="728.59 75.16"
@@ -5510,7 +5510,7 @@
  LabelAlignment="Left"
 ><s font="3" size="6" color="0" face="96">R-SH</s></t></n></fragment><graphic
  id="1871"
- SupersededBy="2237"
+ SupersededBy="2298"
  BoundingBox="757.14 81.76 720.64 81.76"
  Z="2307"
  GraphicType="Line"
@@ -5518,7 +5518,7 @@
  HeadSize="1000"
 /><graphic
  id="1872"
- SupersededBy="2238"
+ SupersededBy="2299"
  BoundingBox="676.13 80.69 679.64 82.72"
  Z="2323"
  GraphicType="Arc"
@@ -5533,8 +5533,8 @@
  ArrowheadType="Solid"
  CurvePoints="738.38 79.88 739.12 69.75 739.88 59.62 719.25 61.50 716.25 69 713.25 76.50 721.12 94.12 711.38 103.12 701.62 112.12 684.38 102.75 684.38 95.25 684.38 87.75"
 /><arrow
- id="2237"
- BoundingBox="720.64 79.76 757.14 83.26"
+ id="2298"
+ BoundingBox="720.64 79.88 757.14 83.27"
  Z="2307"
  FillType="None"
  ArrowheadHead="Full"
@@ -5548,8 +5548,8 @@
  MajorAxisEnd3D="1131.94 184.32 0"
  MinorAxisEnd3D="1113.94 202.32 0"
 /><arrow
- id="2238"
- BoundingBox="676.13 77.36 684.29 85.55"
+ id="2299"
+ BoundingBox="676.13 77.36 684.24 85.43"
  Z="2323"
  FillType="None"
  ArrowheadHead="Full"
@@ -5580,7 +5580,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2239"
+ id="2300"
 ><n
  id="1578"
  p="805.54 241.73"
@@ -5726,7 +5726,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2240"
+ id="2301"
 ><n
  id="1593"
  p="791.37 264.60"
@@ -5853,7 +5853,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2241"
+ id="2302"
 ><n
  id="1608"
  p="847.23 286.10"
@@ -6054,7 +6054,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2242"
+ id="2303"
 ><n
  id="1623"
  p="796.02 331.80"
@@ -6157,7 +6157,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2243"
+ id="2304"
 ><n
  id="1638"
  p="856.20 297.06"
@@ -6259,7 +6259,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2244"
+ id="2305"
 ><n
  id="1653"
  p="861.19 315.67"
@@ -6361,7 +6361,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2245"
+ id="2306"
 ><n
  id="1668"
  p="791.70 315.67"
@@ -6531,7 +6531,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2246"
+ id="2307"
 ><n
  id="1683"
  p="806 381.74"
@@ -6645,7 +6645,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2247"
+ id="2308"
 ><n
  id="1698"
  p="833.93 365.61"
@@ -6696,7 +6696,6 @@
  B="1370"
  E="1372"
  BS="N"
- CrossingBonds="1412"
 /><b
  id="1375"
  Z="2362"
@@ -8552,242 +8551,8 @@
  E="561"
  BS="N"
 /></fragment><fragment
- id="1393"
- BoundingBox="757.23 348.29 831.26 391.21"
- Z="2372"
-><n
- id="1394"
- p="799.68 356.44"
- Z="2373"
- AS="N"
-/><n
- id="1395"
- p="809.03 351.04"
- Z="2374"
- AS="N"
-/><n
- id="1396"
- p="818.38 356.44"
- Z="2375"
- AS="N"
-/><n
- id="1397"
- p="818.38 367.24"
- Z="2376"
- Warning="This atom is very close to another atom or bond."
- AS="N"
-/><n
- id="1398"
- p="809.03 372.64"
- Z="2377"
- AS="N"
-/><n
- id="1399"
- p="799.68 367.24"
- Z="2378"
- AS="N"
-/><n
- id="1400"
- p="790.32 372.64"
- Z="2379"
- AS="N"
-/><n
- id="1401"
- p="780.97 367.24"
- Z="2380"
- AS="N"
-/><n
- id="1402"
- p="771.62 372.64"
- Z="2381"
- AS="N"
-/><n
- id="1403"
- p="771.62 383.44"
- Z="2382"
- AS="N"
-/><n
- id="1404"
- p="780.97 388.84"
- Z="2383"
- AS="N"
-/><n
- id="1405"
- p="790.32 383.44"
- Z="2384"
- AS="N"
-/><n
- id="1406"
- p="762.26 388.84"
- Z="2385"
- Element="17"
- NumHydrogens="0"
- NeedsClean="yes"
- AS="N"
-><t
- p="762.93 391.16"
- BoundingBox="757.23 386.09 762.93 391.21"
- LabelJustification="Right"
- Justification="Right"
- LabelAlignment="Right"
-><s font="3" size="6" color="0" face="96">Cl</s></t></n><n
- id="1407"
- p="762.26 367.24"
- Z="2386"
- Element="17"
- NumHydrogens="0"
- NeedsClean="yes"
- AS="N"
-><t
- p="762.93 369.56"
- BoundingBox="757.23 364.49 762.93 369.61"
- LabelJustification="Right"
- Justification="Right"
- LabelAlignment="Right"
-><s font="3" size="6" color="0" face="96">Cl</s></t></n><n
- id="1408"
- p="827.74 372.64"
- Z="2387"
- Element="17"
- NumHydrogens="0"
- NeedsClean="yes"
- AS="N"
-><t
- p="825.56 374.96"
- BoundingBox="825.56 369.89 831.26 375.01"
- LabelJustification="Left"
- LabelAlignment="Left"
-><s font="3" size="6" color="0" face="96">Cl</s></t></n><n
- id="1409"
- p="827.74 351.04"
- Z="2388"
- Element="17"
- NumHydrogens="0"
- NeedsClean="yes"
- AS="N"
-><t
- p="825.56 353.36"
- BoundingBox="825.56 348.29 831.26 353.41"
- LabelJustification="Left"
- LabelAlignment="Left"
-><s font="3" size="6" color="0" face="96">Cl</s></t></n><b
- id="1410"
- Z="2389"
- B="1394"
- E="1395"
- Order="2"
- BS="N"
- BondCircularOrdering="0 1415 1411 0"
-/><b
- id="1411"
- Z="2390"
- B="1395"
- E="1396"
- BS="N"
-/><b
- id="1412"
- Z="2391"
- B="1396"
- E="1397"
- Order="2"
- BS="N"
- BondCircularOrdering="1426 1411 1413 1425"
- CrossingBonds="1373"
-/><b
- id="1413"
- Z="2392"
- B="1397"
- E="1398"
- BS="N"
-/><b
- id="1414"
- Z="2393"
- B="1398"
- E="1399"
- Order="2"
- BS="N"
- BondCircularOrdering="0 1413 1415 1416"
-/><b
- id="1415"
- Z="2394"
- B="1394"
- E="1399"
- BS="N"
-/><b
- id="1416"
- Z="2395"
- B="1399"
- E="1400"
- BS="N"
-/><b
- id="1417"
- Z="2396"
- B="1400"
- E="1401"
- Order="2"
- BS="N"
- BondCircularOrdering="1422 1416 0 1418"
-/><b
- id="1418"
- Z="2397"
- B="1401"
- E="1402"
- BS="N"
-/><b
- id="1419"
- Z="2398"
- B="1402"
- E="1403"
- Order="2"
- BS="N"
- BondCircularOrdering="1418 1424 1423 1420"
-/><b
- id="1420"
- Z="2399"
- B="1403"
- E="1404"
- BS="N"
-/><b
- id="1421"
- Z="2400"
- B="1404"
- E="1405"
- Order="2"
- BS="N"
- BondCircularOrdering="1420 0 0 1422"
-/><b
- id="1422"
- Z="2401"
- B="1400"
- E="1405"
- BS="N"
-/><b
- id="1423"
- Z="2402"
- B="1403"
- E="1406"
- BS="N"
-/><b
- id="1424"
- Z="2403"
- B="1402"
- E="1407"
- BS="N"
-/><b
- id="1425"
- Z="2404"
- B="1397"
- E="1408"
- BS="N"
-/><b
- id="1426"
- Z="2405"
- B="1396"
- E="1409"
- BS="N"
-/></fragment><fragment
  id="1710"
- BoundingBox="102.28 772.74 120.56 779.51"
+ BoundingBox="102.28 772.76 120.56 779.51"
  Z="2409"
 ><n
  id="1709"
@@ -8916,7 +8681,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2248"
+ id="2309"
 ><n
  id="1883"
  p="234.41 775.70"
@@ -9507,7 +9272,7 @@
  NeedsClean="yes"
  AS="N"
 ><fragment
- id="2249"
+ id="2310"
 ><n
  id="1888"
  p="123.79 858.90"
@@ -9657,149 +9422,149 @@
  BS="N"
 /></fragment><fragment
  id="1984"
- BoundingBox="431.74 520.59 534.60 568.82"
+ BoundingBox="429.24 494.59 532.10 542.82"
  Z="2897"
 ><n
  id="1985"
- p="441.35 555.64"
+ p="438.85 529.64"
  Z="2895"
  AS="N"
 /><n
  id="1986"
- p="432.04 550.27"
+ p="429.54 524.27"
  Z="2896"
  AS="N"
 /><n
  id="1987"
- p="432.04 539.52"
+ p="429.54 513.52"
  Z="2898"
  AS="N"
 /><n
  id="1988"
- p="441.35 534.14"
+ p="438.85 508.14"
  Z="2899"
  AS="N"
 /><n
  id="1989"
- p="450.66 539.52"
+ p="448.16 513.52"
  Z="2900"
  AS="N"
 /><n
  id="1990"
- p="450.66 550.27"
+ p="448.16 524.27"
  Z="2901"
  AS="N"
 /><n
  id="1991"
- p="469.28 539.52"
+ p="466.78 513.52"
  Z="2908"
  AS="N"
 /><n
  id="1992"
- p="478.59 534.14"
+ p="476.09 508.14"
  Z="2909"
  AS="N"
 /><n
  id="1993"
- p="487.90 539.52"
+ p="485.40 513.52"
  Z="2910"
  AS="N"
 /><n
  id="1994"
- p="487.90 550.27"
+ p="485.40 524.27"
  Z="2911"
  AS="N"
 /><n
  id="1995"
- p="478.59 555.64"
+ p="476.09 529.64"
  Z="2912"
  AS="N"
 /><n
  id="1996"
- p="469.28 550.27"
+ p="466.78 524.27"
  Z="2913"
  AS="N"
 /><n
  id="1997"
- p="459.97 534.14"
+ p="457.47 508.14"
  Z="2920"
  Element="7"
  NumHydrogens="1"
  NeedsClean="yes"
  AS="N"
 ><t
- p="457.80 531.45"
- BoundingBox="457.80 526.43 462.15 536.47"
+ p="455.30 505.45"
+ BoundingBox="455.30 500.43 459.65 510.47"
  LabelJustification="Left"
  LabelAlignment="Above"
  LineStarts="2 4"
 ><s font="3" size="6" color="0" face="96">NH</s></t></n><n
  id="2001"
- p="497.21 555.64"
+ p="494.71 529.64"
  Z="2927"
  Element="7"
  NumHydrogens="1"
  NeedsClean="yes"
  AS="N"
 ><t
- p="495.04 557.97"
- BoundingBox="495.04 552.95 499.39 562.98"
+ p="492.54 531.97"
+ BoundingBox="492.54 526.95 496.89 536.98"
  LabelJustification="Left"
  LabelAlignment="Below"
  LineStarts="2 3"
 ><s font="3" size="6" color="0" face="96">NH</s></t></n><n
  id="2002"
- p="506.52 550.27"
+ p="504.02 524.27"
  Z="2929"
  AS="N"
 /><n
  id="2003"
- p="515.83 555.64"
+ p="513.33 529.64"
  Z="2931"
  AS="N"
 /><n
  id="2004"
- p="525.14 550.27"
+ p="522.64 524.27"
  Z="2933"
  AS="N"
 /><n
  id="2005"
- p="534.45 555.64"
+ p="531.95 529.64"
  Z="2935"
  AS="N"
 /><n
  id="2052"
- p="506.52 539.52"
+ p="504.02 513.52"
  Z="2937"
  AS="N"
 /><n
  id="2054"
- p="525.14 539.52"
+ p="522.64 513.52"
  Z="2939"
  AS="N"
 /><n
  id="2102"
- p="478.59 523.34"
+ p="476.09 497.34"
  Z="3033"
  Element="8"
  NumHydrogens="0"
  NeedsClean="yes"
  AS="N"
 ><t
- p="476.27 525.67"
- BoundingBox="476.27 520.59 480.94 525.72"
+ p="473.77 499.67"
+ BoundingBox="473.77 494.59 478.44 499.72"
  LabelJustification="Left"
 ><s font="3" size="6" color="0" face="96">O</s></t></n><n
  id="2104"
- p="478.59 566.44"
+ p="476.09 540.44"
  Z="3035"
  Element="8"
  NumHydrogens="0"
  NeedsClean="yes"
  AS="N"
 ><t
- p="476.27 568.77"
- BoundingBox="476.27 563.69 480.94 568.82"
+ p="473.77 542.77"
+ BoundingBox="473.77 537.69 478.44 542.82"
  LabelJustification="Left"
 ><s font="3" size="6" color="0" face="96">O</s></t></n><b
  id="2016"
@@ -10514,6 +10279,239 @@
  E="2207"
  Order="3"
  BS="N"
+/></fragment><fragment
+ id="2217"
+ BoundingBox="674.37 322.41 748.40 365.34"
+ Z="3222"
+><n
+ id="2218"
+ p="716.82 330.56"
+ Z="3223"
+ AS="N"
+/><n
+ id="2219"
+ p="726.17 325.16"
+ Z="3224"
+ AS="N"
+/><n
+ id="2220"
+ p="735.52 330.56"
+ Z="3225"
+ AS="N"
+/><n
+ id="2221"
+ p="726.17 346.76"
+ Z="3226"
+ AS="N"
+/><n
+ id="2222"
+ p="716.82 341.36"
+ Z="3227"
+ AS="N"
+/><n
+ id="2223"
+ p="707.46 346.76"
+ Z="3228"
+ AS="N"
+/><n
+ id="2224"
+ p="698.11 341.36"
+ Z="3229"
+ AS="N"
+/><n
+ id="2225"
+ p="688.76 346.76"
+ Z="3230"
+ AS="N"
+/><n
+ id="2226"
+ p="688.76 357.56"
+ Z="3231"
+ AS="N"
+/><n
+ id="2227"
+ p="698.11 362.96"
+ Z="3232"
+ AS="N"
+/><n
+ id="2228"
+ p="707.46 357.56"
+ Z="3233"
+ AS="N"
+/><n
+ id="2229"
+ p="679.40 362.96"
+ Z="3234"
+ Element="17"
+ NumHydrogens="0"
+ NeedsClean="yes"
+ AS="N"
+><t
+ p="680.07 365.29"
+ BoundingBox="674.37 360.21 680.07 365.34"
+ LabelJustification="Right"
+ Justification="Right"
+ LabelAlignment="Right"
+><s font="3" size="6" color="0" face="96">Cl</s></t></n><n
+ id="2230"
+ p="679.40 341.36"
+ Z="3235"
+ Element="17"
+ NumHydrogens="0"
+ NeedsClean="yes"
+ AS="N"
+><t
+ p="680.07 343.69"
+ BoundingBox="674.37 338.61 680.07 343.74"
+ LabelJustification="Right"
+ Justification="Right"
+ LabelAlignment="Right"
+><s font="3" size="6" color="0" face="96">Cl</s></t></n><n
+ id="2231"
+ p="744.88 325.16"
+ Z="3236"
+ Element="17"
+ NumHydrogens="0"
+ NeedsClean="yes"
+ AS="N"
+><t
+ p="742.70 327.49"
+ BoundingBox="742.70 322.41 748.40 327.54"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="3" size="6" color="0" face="96">Cl</s></t></n><n
+ id="2256"
+ p="735.52 341.37"
+ Z="3260"
+ AS="N"
+/><n
+ id="2266"
+ p="744.88 346.76"
+ Z="3270"
+ Element="17"
+ NumHydrogens="0"
+ NeedsClean="yes"
+ AS="N"
+><t
+ p="742.70 349.09"
+ BoundingBox="742.70 344.01 748.40 349.14"
+ LabelJustification="Left"
+ LabelAlignment="Left"
+><s font="3" size="6" color="0" face="96">Cl</s></t></n><b
+ id="2232"
+ Z="3237"
+ B="2218"
+ E="2219"
+ Order="2"
+ BS="N"
+ BondCircularOrdering="0 2235 2233 0"
+/><b
+ id="2233"
+ Z="3238"
+ B="2219"
+ E="2220"
+ BS="N"
+/><b
+ id="2234"
+ Z="3239"
+ B="2221"
+ E="2222"
+ Order="2"
+ DoublePosition="Left"
+ BS="N"
+ BondCircularOrdering="0 2257 2235 2236"
+/><b
+ id="2235"
+ Z="3240"
+ B="2218"
+ E="2222"
+ BS="N"
+/><b
+ id="2236"
+ Z="3241"
+ B="2222"
+ E="2223"
+ BS="N"
+/><b
+ id="2237"
+ Z="3242"
+ B="2223"
+ E="2224"
+ Order="2"
+ BS="N"
+ BondCircularOrdering="2242 2236 0 2238"
+/><b
+ id="2238"
+ Z="3243"
+ B="2224"
+ E="2225"
+ BS="N"
+/><b
+ id="2239"
+ Z="3244"
+ B="2225"
+ E="2226"
+ Order="2"
+ BS="N"
+ BondCircularOrdering="2238 2244 2243 2240"
+/><b
+ id="2240"
+ Z="3245"
+ B="2226"
+ E="2227"
+ BS="N"
+/><b
+ id="2241"
+ Z="3246"
+ B="2227"
+ E="2228"
+ Order="2"
+ BS="N"
+ BondCircularOrdering="2240 0 0 2242"
+/><b
+ id="2242"
+ Z="3247"
+ B="2223"
+ E="2228"
+ BS="N"
+/><b
+ id="2243"
+ Z="3248"
+ B="2226"
+ E="2229"
+ BS="N"
+/><b
+ id="2244"
+ Z="3249"
+ B="2225"
+ E="2230"
+ BS="N"
+/><b
+ id="2245"
+ Z="3250"
+ B="2220"
+ E="2231"
+ BS="N"
+/><b
+ id="2257"
+ Z="3261"
+ B="2221"
+ E="2256"
+ BS="N"
+/><b
+ id="2261"
+ Z="3265"
+ B="2256"
+ E="2220"
+ Order="2"
+ BS="N"
+ BondCircularOrdering="2257 2267 2245 2233"
+/><b
+ id="2267"
+ Z="3271"
+ B="2256"
+ E="2266"
+ BS="N"
 /></fragment><t
  id="1257"
  p="165.50 634.12"
@@ -10544,9 +10542,38 @@
  LabelJustification="Left"
  LabelLineHeight="auto"
  LineHeight="auto"
-><s font="3" size="6" color="0" face="1">SOD1</s></t><graphic
+><s font="3" size="6" color="0" face="1">SOD1</s></t><t
+ id="2209"
+ p="490.63 480.27"
+ BoundingBox="482.78 474.67 498.48 481.82"
+ Z="3186"
+ InterpretChemically="no"
+ CaptionJustification="Center"
+ ChemPropName="6PPD"
+ Justification="Center"
+ LineHeight="auto"
+><s font="3" size="6" color="0" face="97">6PPD</s></t><t
+ id="2211"
+ p="480.67 552.67"
+ BoundingBox="460.15 547.07 501.20 554.22"
+ Z="3187"
+ InterpretChemically="no"
+ CaptionJustification="Center"
+ ChemPropFormula=""
+ Justification="Center"
+ LineHeight="auto"
+><s font="3" size="6" color="0" face="97">6PPD-quinone</s></t><t
+ id="2213"
+ p="489.99 650.18"
+ BoundingBox="460.29 644.58 519.70 651.73"
+ Z="3188"
+ InterpretChemically="no"
+ CaptionJustification="Center"
+ Justification="Center"
+ LineHeight="auto"
+><s font="3" size="6" color="0" face="97">6PPD-quinone probe</s></t><graphic
  id="1896"
- SupersededBy="2250"
+ SupersededBy="2311"
  BoundingBox="169.63 776.12 131.46 776.12"
  Z="2414"
  GraphicType="Line"
@@ -10560,7 +10587,7 @@
  SymbolType="Plus"
 /><graphic
  id="1897"
- SupersededBy="2251"
+ SupersededBy="2312"
  BoundingBox="167.28 868.19 123.78 868.19"
  Z="2491"
  GraphicType="Line"
@@ -10575,132 +10602,132 @@
  Z="2270"
  ArrowheadType="Solid"
 /><scheme
- id="2252"
+ id="2313"
 ><step
- id="2253"
+ id="2314"
  ReactionStepReactants="642"
  ReactionStepProducts="884"
  ReactionStepArrows="1849"
 /><step
- id="2254"
+ id="2315"
  ReactionStepReactants="642"
  ReactionStepProducts="1089"
  ReactionStepArrows="1845"
 /><step
- id="2255"
+ id="2316"
  ReactionStepReactants="884"
  ReactionStepProducts="1089"
  ReactionStepArrows="1856"
 /><step
- id="2256"
+ id="2317"
  ReactionStepReactants="884"
  ReactionStepProducts="1334"
  ReactionStepArrows="1858"
 /><step
- id="2257"
+ id="2318"
  ReactionStepReactants="884"
  ReactionStepArrows="1857"
 /><step
- id="2258"
+ id="2319"
  ReactionStepReactants="1089"
  ReactionStepProducts="1257"
  ReactionStepArrows="1868"
  ReactionStepObjectsBelowArrow="1259"
 /><step
- id="2259"
+ id="2320"
  ReactionStepReactants="1089"
- ReactionStepProducts="2056 1393 1392 1391"
+ ReactionStepProducts="2056 2217 1392 1391"
  ReactionStepArrows="1863"
 /><step
- id="2260"
+ id="2321"
  ReactionStepReactants="1334"
  ReactionStepProducts="884"
  ReactionStepArrows="1855"
 /></scheme><scheme
- id="2261"
+ id="2322"
 ><step
- id="2262"
+ id="2323"
  ReactionStepReactants="337"
  ReactionStepArrows="1848"
 /><step
- id="2263"
+ id="2324"
  ReactionStepReactants="337"
  ReactionStepProducts="541"
  ReactionStepArrows="1847"
 /></scheme><scheme
- id="2264"
+ id="2325"
 ><step
- id="2265"
+ id="2326"
  ReactionStepReactants="1332"
  ReactionStepProducts="1389"
  ReactionStepArrows="1871"
 /></scheme><scheme
- id="2266"
+ id="2327"
 ><step
- id="2267"
+ id="2328"
  ReactionStepReactants="1390"
  ReactionStepProducts="1089"
  ReactionStepArrows="1862"
 /><step
- id="2268"
+ id="2329"
  ReactionStepReactants="1089"
  ReactionStepProducts="1257"
  ReactionStepArrows="1868"
  ReactionStepObjectsBelowArrow="1259"
 /><step
- id="2269"
+ id="2330"
  ReactionStepReactants="1089"
- ReactionStepProducts="2056 1393 1392 1391"
+ ReactionStepProducts="2056 2217 1392 1391"
  ReactionStepArrows="1863"
 /></scheme><scheme
- id="2270"
+ id="2331"
 ><step
- id="2271"
+ id="2332"
  ReactionStepReactants="1733 1706 1710"
  ReactionStepProducts="1717 1730"
  ReactionStepArrows="1896"
  ReactionStepObjectsAboveArrow="1737"
 /></scheme><scheme
- id="2272"
+ id="2333"
 ><step
- id="2273"
+ id="2334"
  ReactionStepReactants="1775"
  ReactionStepProducts="1797"
  ReactionStepArrows="1897"
  ReactionStepObjectsAboveArrow="1831"
 /></scheme><scheme
- id="2274"
+ id="2335"
 ><step
- id="2275"
+ id="2336"
  ReactionStepProducts="1089"
  ReactionStepArrows="1865"
 /><step
- id="2276"
+ id="2337"
  ReactionStepReactants="1089"
  ReactionStepProducts="1257"
  ReactionStepArrows="1868"
  ReactionStepObjectsBelowArrow="1259"
 /><step
- id="2277"
+ id="2338"
  ReactionStepReactants="1089"
- ReactionStepProducts="2056 1393 1392 1391"
+ ReactionStepProducts="2056 2217 1392 1391"
  ReactionStepArrows="1863"
 /></scheme><scheme
- id="2278"
+ id="2339"
 ><step
- id="2279"
+ id="2340"
  ReactionStepProducts="1089"
  ReactionStepArrows="1864"
 /><step
- id="2280"
+ id="2341"
  ReactionStepReactants="1089"
  ReactionStepProducts="1257"
  ReactionStepArrows="1868"
  ReactionStepObjectsBelowArrow="1259"
 /><step
- id="2281"
+ id="2342"
  ReactionStepReactants="1089"
- ReactionStepProducts="2056 1393 1392 1391"
+ ReactionStepProducts="2056 2217 1392 1391"
  ReactionStepArrows="1863"
 /></scheme><chemicalproperty
  id="881"
@@ -10769,9 +10796,24 @@
  ChemicalPropertyDisplayID="1387"
  ChemicalPropertyType="1"
  BasisObjects="1356 1357 1358 1359 1360 1361 1362 1363"
+/><chemicalproperty
+ id="2210"
+ ChemicalPropertyDisplayID="2209"
+ ChemicalPropertyType="1"
+ BasisObjects="2057 2058 2056 2059 2060 2061 2062 2079 2080 2081 2082 2083 2084 2063 2064 2065 2066 2067 2068 2085 2086 2087 2088 2089 2090 2069 2091 2092 2072 2095 2073 2096 2074 2097 2075 2098 2076 2099 2077 2100 2078 2101"
+/><chemicalproperty
+ id="2212"
+ ChemicalPropertyDisplayID="2211"
+ ChemicalPropertyType="2"
+ BasisObjects="1985 1986 1984 1987 1988 1989 1990 2016 2017 2018 2019 2020 2021 1991 1992 1993 1994 1995 1996 2022 2023 2024 2025 2026 2027 1997 2028 2029 2001 2033 2002 2034 2003 2035 2004 2036 2005 2037 2052 2053 2054 2055 2102 2103 2104 2105"
+/><chemicalproperty
+ id="2214"
+ ChemicalPropertyDisplayID="2213"
+ ChemicalPropertyType="1"
+ BasisObjects="2107 2108 2106 2109 2110 2111 2112 2129 2130 2131 2132 2133 2134 2113 2114 2115 2116 2117 2118 2135 2136 2137 2138 2139 2140 2119 2141 2142 2127 2150 2128 2151 2154 2155 2156 2157 2158 2159 2160 2161 2162 2163 2164 2165 2207 2208"
 /><arrow
- id="2250"
- BoundingBox="131.46 774.12 169.63 777.62"
+ id="2311"
+ BoundingBox="131.46 774.24 169.63 777.63"
  Z="2414"
  FillType="None"
  ArrowheadHead="Full"
@@ -10785,8 +10827,8 @@
  MajorAxisEnd3D="469.85 1077.39 0"
  MinorAxisEnd3D="431.68 1115.56 0"
 /><arrow
- id="2251"
- BoundingBox="123.78 866.18 167.28 869.69"
+ id="2312"
+ BoundingBox="123.78 866.31 167.28 869.70"
  Z="2491"
  FillType="None"
  ArrowheadHead="Full"
