@@ -80,7 +80,7 @@ library(xaringanExtra)
 xaringanExtra::use_tile_view()
 ```
 
-# Chemical Proteomics Methods for Elucidating the <br>Physical Protein Targets of Environmental Contaminants
+# Chemical Proteomics Methods for Elucidating the<br>Physical Protein Targets of Environmental Contaminants
 
 .left-column[
 <br>
@@ -99,6 +99,9 @@ xaringanExtra::use_tile_view()
 ![:scale 60%](images/01-intro/thesis-toc.png)
 ]
 
+???
+
+
 
 ---
 class: inverse
@@ -110,8 +113,7 @@ background-color: #000000
 
 ???
 
-- Talk about canary in coal mine, and hx of humans using animals 
-
+- Humans have always used animal to test toxicity, even if we didn't understand what was happening.
 ---
 class: inverse
 background-image: url(images/01-intro/lozenge.jpg)
@@ -137,7 +139,7 @@ background-color: #000000
 
 - *Poison Squad*, a group of 12 volunteers who in **1901** set out to test the effects of chemical food preservatives using human trials
 - This led to the development of the FDA (U.S. Food and Drug Administration)  
-
+- Standing guy is William R. Carter, cook/guy who dosed food. Retired from FDA in 1946 as a charter member and pharmacist. 
 
 ---
 class: inverse
@@ -163,9 +165,9 @@ background-color: #000000
 .footnoteRight[[Caven<br>Images<br>(2021)](https://www.nature.com/articles/d43978-021-00009-6)]
 
 ???
-- Modern assessments still employ animal testing
+- Modern assessments have improved in understanding and quality of animal welface
 - Triaged using *in vitro* screening; lower doses; and lower endpoints 
-
+- Still reliant on animal testing
 ---
 
 class: center, middle
@@ -192,6 +194,7 @@ knitr::include_graphics("images/01-intro/want-est-2020.jpeg")
 - Testing requires days to analyze samples 
   - 14 days observations
   - one chemical at a time
+- **Estimated 350 000 Chemicals** in use, not accounting for chirality and environmental transformations 
 
 ---
 
@@ -203,8 +206,12 @@ knitr::include_graphics("images/01-intro/want-est-2020.jpeg")
 ]
 ]
 
-
 .footnoteRight[[Data from<br>Kennedy<br>et al., 1996](https://www.sciencedirect.com/science/article/pii/S0041008X96800275)]
+
+???
+
+- Landfowl (*galliformes*) such as **Chickens** are susceptible to halogenated aryl hydrocarbons (HAHs) unlike waterfowl (*Anseriformes*) such as **Ducks** and **Gulls**
+
 ---
 
 # AOPs can address these issues, but animal testing fails to elucidate *molecular* mechanisms of toxicity
@@ -219,6 +226,10 @@ knitr::include_graphics("images/01-intro/aop.png")
 
 .footnoteRight[[Ankley et al.<br><i>Env. Tox. &<br>Chem.</i> 2010](https://setac.onlinelibrary.wiley.com/doi/10.1002/etc.34)]
 
+???
+
+- MIEs are most likely proteins 
+
 ---
 
 # Small differences in protein structure can account for large disparities in interspecies toxicity
@@ -228,6 +239,10 @@ knitr::include_graphics("images/01-intro/aop.png")
 ![:scale 70%](images/01-intro/tcdd-ahr-pocket.png)]]
 
 .footnoteLeft[[Pandini et al.<br>*Biochemistry*<br> 2009](https://pubs.acs.org/doi/10.1021/bi900259z)]
+
+???
+
+- **AHR** is the **molecular initiating event** for halogenated aryl hydrocarbon toxicity. 
 
 --
 
@@ -239,7 +254,10 @@ knitr::include_graphics("images/01-intro/aop.png")
 
 .footnoteRight[[Karchner et al.<br><i>PNAS</i> 2006](https://www.pnas.org/doi/10.1073/pnas.0509950103)]
 
+???
 
+- Waterfowl and landfowl AHR **binding pocket differs by 3 amino acids**
+- 2 of which control binding 
 ---
 class: inverse middle center
 background-image: url(images/01-intro/cell.png
@@ -249,9 +267,7 @@ background-size: cover
 
 ???
 
-- Metaphor of repairing car (blueprints = genomes, metabolites = leaking, proteins = looking at the parts). 
-- maybe make it multiple slides... 
-
+- Identifying MIE, which are predominately proteins, is like finding a needle in a haystack 
 ---
 
 # The identification and quantification of thousands of proteins is possible via LC-MS proteomics
@@ -294,7 +310,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ---
 
 
-# .my-bold[Project 1]: Profilling Proteome  Thiol Reactivity of Monohaloacetic Acids and Monohaloacetamides 
+# .my-bold[Project 1]: Profiling Proteome Thiol Reactivity of Monohaloacetic Acids and Monohaloacetamides 
 .left-column[
 <br>
 <br>
@@ -349,7 +365,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 <!-- get CHO cytoxicuty date here: https://www.sciencedirect.com/science/article/pii/S1001074217303285 -->
 ---
 
-# Order of DBP cytoxicity is I > Br >> Cl,<br>but only HAMS induce Nrf2 oxidatiative stress
+# Order of DBP cytoxicity is I > Br >> Cl,<br>but only HAMS induce Nrf2 oxidative stress
 
 .hide-bg[
 .center[
@@ -357,6 +373,10 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 ]   
 ]
 .footnoteLeft[**AA** = acetic acid<br>**AM** = acetamide]
+
+???
+
+- **Nrf2**: Nuclear factor erythroid 2-related factor 2, binds to and promotes **AHR** (antioxidant response elements )
 ---
 
 # I developed an activity-based protein profiling method to identify the protein targets of mHAAs and mHAMs
@@ -557,7 +577,7 @@ knitr::include_graphics("images/01-intro/proteomics.png")
 
 ---
 
-# Only 9 of 107 8:2 FTAC modified proteins have annoated nucleophilic residues, none of which are modified
+# Only 9 of 107 8:2 FTAC modified proteins have annotated nucleophilic residues, none of which are modified
 <!-- get exact number of proteins -->
 .hide-bg[
 .center[
@@ -791,7 +811,7 @@ class: middle center
 <br>
 - .my-bold[Project 1] demonstrated how chemical proteomics can elucidate mechanisms of toxicity
 
-- .my-bold[Project 2] led to the development an a chemical proteomics approach to study long-chain PFAS protein adducts
+- .my-bold[Project 2] led to the development of an a chemical proteomics approach to study long-chain PFAS protein adducts
 ]
 <br>
 <br>
@@ -808,7 +828,7 @@ class: middle center
 <br>
 - .my-bold[Project 1] demonstrated how chemical proteomics can elucidate mechanisms of toxicity
 
-- .my-bold[Project 2] led to the development an a chemical proteomics approach to study long-chain PFAS protein adducts
+- .my-bold[Project 2] led to the development of an a chemical proteomics approach to study long-chain PFAS protein adducts
 
 - .my-bold[Project 3] analyzed the proteome responses of 74 PFAS to create the largest toxicoproteomics dataset to date
 ]
@@ -821,7 +841,7 @@ class: middle center
 
 ---
 
-# Looking to the future, work should expand protoemics methods, and explore downstream insights
+# Looking to the future, work should expand proteomics methods, and explore downstream insights
 
 .hide-bg[
 .center[
